@@ -1,0 +1,97 @@
+/// <reference path="main" />
+
+html {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+body {
+    @extend %font-body;
+    @include font-size(15px);
+    font-weight: $font-weight-normal;
+    line-height: 1.6em;
+    color: $black;
+    border-top: 2px solid $brand-primary;
+    background: $white url(../images/bg-tile.gif) repeat fixed;
+    background-size: 101px 101px;
+    padding-bottom:50px;
+    -webkit-font-smoothing: antialiased;
+    position:relative;
+}
+
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.cf,
+.clearfix {
+    @extend %clearfix;
+}
+
+
+
+hr {
+    margin: 1em 0;
+    background-color: #ccc;
+    border-color: #ccc;
+    height: 1px;
+}
+
+ul, ol {
+    padding: 0 1em;
+    margin: 1em 0;
+
+    li {
+        margin-bottom:0.5em;
+    }
+}
+
+img {
+    max-width:100%;
+    height:auto !important;
+}
+
+// Responsive video embeds
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-bottom: 1em;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+// Blockquote
+blockquote, .quote {
+    margin: 1.5em 0;
+    padding: 0 1.5em;
+    border-left: 0.15em solid $brand-primary;
+
+    p {
+        @include font-size(20px);
+        line-height: normal;
+    }
+
+    cite {
+        @include font-size(13px);
+    }
+}
+
+.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+
+    & > [class*='col-'] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

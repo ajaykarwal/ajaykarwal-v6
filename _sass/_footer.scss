@@ -1,0 +1,33 @@
+/// <reference path="main" />
+
+footer[role="contentinfo"] {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:50px;
+    background-color: $brand-primary;
+    color: $white;
+    padding: 1em;
+    text-align: center;
+    margin-top:3em;
+
+    p {
+        @include font-size(12px);
+    }
+
+    a {
+        color: $white;
+    }
+
+    ul.networks {
+        @include font-size(16px);
+
+        li {
+            display: inline-block;
+            margin-left: 1em;
+            margin-right: 1em;
+
+        }
+    }
+
+}

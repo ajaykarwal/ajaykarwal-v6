@@ -1,0 +1,16 @@
+###### Site settings
+title: User Interface Design and Development Portfolio | Ajay Karwal
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+    User interface design and development
+    portfolio for Ajay Karwal
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ajaykarwal.com" # the base hostname & protocol for your site
+twitter_username: ajaykarwal
+github_username:  ajaykarwal
+
+###### Build settings
+markdown: kramdown
+# permalink: pretty
+sass:
+  style: compressed

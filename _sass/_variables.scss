@@ -1,0 +1,64 @@
+/// <reference path="main" />
+
+//Breakpoints
+$break-xs: 480px;
+$break-sm: 768px;
+$break-md: 992px;
+$break-lg: 1200px;
+
+// Colors
+$brand-primary: #80334d;
+$brand-secondary: #2b8991;
+$dark-grey: #666666;
+$medium-grey: #7f7f7f;
+$light-grey: #d9d9d9;
+$white: #ffffff;
+$black: #262626;
+$true-black: #000000;
+
+$text-body: $brand-secondary;
+$text-link: $brand-primary;
+
+@import url(https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900);
+$font-family-brand: 'Heebo', 'Helvetica', Arial, sans-serif;
+$font-family-normal: 'Heebo', 'Helvetica', Arial, sans-serif;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$brand-twitter: #55acee;
+$brand-facebook: #3b5998;
+$brand-instagram: #a7755c;
+$brand-linkedin: #0077b5;
+$brand-dribbble: #ea4c89;
+$brand-behance: #1769ff;
+$brand-youtube: #cd201f;
+
+
+// Functions and Mixins
+
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+}
+
+
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    $opacity-ie: $opacity * 100;
+    filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+@mixin fade-in($duration, $delay) {
+    .fade-in & {
+        opacity: 1;
+        transition-duration: #{$duration};
+        transition-delay: #{$delay};
+    }
+}

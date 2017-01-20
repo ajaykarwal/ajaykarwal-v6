@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<!--   {% for tag in page.tags %}
+  <span>• {{tag}}</span>
+  {% endfor %} -->
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.subheading %}
+    <p>{{ page.subheading }}</p>
+    {% endif %}
+
+    <div class="row meta-info">
+      <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    </div>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  <footer>
+    @Html.Partial("_SharePage", Model)
+  </footer>
+  {% if site.disqus.shortname %}
+  <h2>Comments</h2>
+  {% include disqus_comments.html %}
+  {% endif %}
+</article>

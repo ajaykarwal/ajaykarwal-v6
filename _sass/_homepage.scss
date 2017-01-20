@@ -1,0 +1,58 @@
+﻿/// <reference path="main" />
+
+.homepage {
+    text-align: center;
+
+    .intro {
+        margin-bottom: 2em;
+
+        .avatar {
+            margin-bottom: 2em;
+            opacity: 0;
+            transition: opacity;
+
+            @include fade-in(2s, 1s);
+
+            img {
+                width: 270px;
+            }
+        }
+
+        p {
+            line-height: normal;
+            padding: 0;
+            margin-bottom: 0.5em;
+            font-weight: $font-weight-normal;
+            opacity: 0;
+            transition: opacity;
+
+            @include fade-in(2s, 2s);
+
+            @include font-size(18px);
+
+            @media (min-width: $break-md) {
+                @include font-size(22px);
+            }
+
+            &.name {
+                @include font-size(28px);
+
+                @media (min-width: $break-md) {
+                    @include font-size(32px);
+                }
+            }
+        }
+
+        .actions {
+            margin-top: 2em;
+            opacity: 0;
+            transition: opacity;
+
+            @include fade-in(1.5s, 3.5s);
+
+            .btn {
+                margin: auto 0.25em 1em;
+            }
+        }
+    }
+}
