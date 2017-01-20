@@ -2,9 +2,6 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-<!--   {% for tag in page.tags %}
-  <span>• {{tag}}</span>
-  {% endfor %} -->
   <header>
     <h1>{{ page.title | escape }}</h1>
     {% if page.subheading %}
@@ -22,7 +19,7 @@ layout: default
   <footer>
     @Html.Partial("_SharePage", Model)
   </footer>
-  {% if site.disqus.shortname %}
+  {% if site.disqus_shortname %}
   <h2>Comments</h2>
   {% include disqus_comments.html %}
   {% endif %}

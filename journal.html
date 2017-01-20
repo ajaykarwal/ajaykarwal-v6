@@ -1,20 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+---
+layout: default
+title: "Journal"
+---
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-</body>
-</html>
+
+<section class="blog-list">
+  <header class="page-title">
+    <h1>{{page.title}}</h1>
+  </header>
+
+  {% for post in site.posts %}
+  <article class="blog-item clearfix">
+    <h2 class="title">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h2>
+    {% if post.subheading %}
+    <p>{{ post.subheading }}</p>
+
+    <p class="date">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>

@@ -1,5 +1,3 @@
-/// <reference path="main" />
-
 // Main site header
 header[role="banner"] {
     @extend .clearfix;
@@ -134,7 +132,7 @@ nav {
     padding-top: 3em;
     background: $brand-primary;
     text-align: right;
-    
+
     @media (min-width: $break-md) {
         display: block;
         float: right;
