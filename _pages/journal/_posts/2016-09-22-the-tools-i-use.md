@@ -3,7 +3,6 @@
   title:  "The tools I use"
   subheading: "this is the subheading"
   author: Ajay Karwal
-  comments: true
 ---
 
 #

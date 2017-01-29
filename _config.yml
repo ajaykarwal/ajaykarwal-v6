@@ -19,8 +19,15 @@ github_username:  ajaykarwal
 
 disqus_shortname: ajaykarwal
 
+
+###### Add _pages directory to jekyll build
+include: ["_pages"]
+
+
 ###### Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:title/
 sass:
   style: compressed
+
+

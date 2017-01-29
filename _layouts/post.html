@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="article-post" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <h1>{{ page.title | escape }}</h1>
     {% if page.subheading %}
@@ -16,11 +16,15 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+
   <footer>
   {% include share-page.html %}
   </footer>
+
   {% if site.disqus_shortname %}
-  <h2>Comments</h2>
-  {% include disqus_comments.html %}
+    {% if page.comments != false %}
+    <h2>Comments</h2>
+    {% include disqus_comments.html %}
+    {% endif %}
   {% endif %}
 </article>
