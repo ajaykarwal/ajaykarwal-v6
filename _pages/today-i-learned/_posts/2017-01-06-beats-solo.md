@@ -1,14 +1,9 @@
 ---
   layout: post
-  title:  "6th January 2017"
-  <!-- permalink: /til/:title -->
+  title:  Beats Solo Wireless
+  permalink: /today-i-learned/:title
 ---
 
-## January 2017
-
-
-
-### 6th
 Today I learned that in order to pair a set of Beats Solo wireless headphones to Windows 10, you need to restart Windows to complete the setup!
 
 

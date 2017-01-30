@@ -1,6 +1,8 @@
 ---
 ---
 
+@import 'reset';
+
 @import 'variables';
 @import 'global';
 @import 'layout';
@@ -11,3 +13,5 @@
 @import 'footer';
 @import 'modules';
 @import 'homepage';
+
+@import 'code'; //https://github.com/yaitloutou/sass-code-highlight

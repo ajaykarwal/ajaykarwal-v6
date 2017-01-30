@@ -17,10 +17,11 @@ comments: false
   </h2>
   {% if post.subheading %}
   <p>{{ post.subheading }}</p>
+  {% endif %}
 
   <p class="date">
     {{ post.date | date: "%b %-d, %Y" }}
   </p>
-  {% endif %}
+
 </article>
 {% endfor %}

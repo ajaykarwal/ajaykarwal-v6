@@ -5,8 +5,6 @@
   author: Ajay Karwal
 ---
 
-#
-
 I thought it would be interesting and somewhat useful to share a list of hardware, software, apps and podcasts I use on a daily basis both at work and in my personal life.
 
 The list is up to date as of September 2016.
