@@ -1,14 +1,14 @@
 ---
   layout: post
   title:  "Making Makr"
-  subheading: "Starting a community for local creatives"
-  author: Ajay Karwal
   permalink: /journal/:title
+  excerpt_separator: <!--more-->
 ---
 
-## Introducing Makr — <a href="http://www.makr.tv" target="_blank">www.makr.tv</a>
-
 Makr is a community for creative people to connect and collaborate in the Thames Valley area. It's a Slack team where members can discuss events they've attended, find collaborators for side projects or simple form friendships with local people who have similar interests.
+
+<!--more-->
+## Introducing Makr — <a href="http://www.makr.tv" target="_blank">www.makr.tv</a>
 
 If you're in the Thames Valley area head over to <a href="http://www.makr.tv" target="_blank">www.makr.tv</a> and get an invite to the Slack team. Join in the conversations and help shape the future of Makr.
 

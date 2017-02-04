@@ -21,9 +21,17 @@ $text-link: $brand-primary;
 $font-family-brand: 'Heebo', 'Helvetica', Arial, sans-serif;
 $font-family-normal: 'Heebo', 'Helvetica', Arial, sans-serif;
 
+%font-heading { font-family: $font-family-brand; }
+%font-body { font-family: $font-family-normal; }
+
+$font-weight-thin: 100;
 $font-weight-light: 300;
 $font-weight-normal: 400;
+$font-weight-medium: 500;
 $font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
+
 
 $brand-twitter: #55acee;
 $brand-facebook: #3b5998;

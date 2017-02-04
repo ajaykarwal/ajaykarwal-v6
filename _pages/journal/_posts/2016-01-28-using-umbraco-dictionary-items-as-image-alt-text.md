@@ -1,7 +1,6 @@
 ---
   layout: post
   title: "Using Umbraco Dictionary Items as image alt text"
-  author: Ajay Karwal
   permalink: /journal/:title
 ---
 

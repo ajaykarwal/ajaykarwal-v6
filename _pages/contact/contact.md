@@ -1,11 +1,10 @@
 ---
-layout: page
-title: "Contact"
-permalink: "/contact/"
-order: 6
-comments: false
+  layout: page
+  title: "Contact"
+  permalink: "/contact/"
+  order: 6
+  comments: false
 ---
-
 
 If you have a project in mind or are simply interested in finding out more, get in touch. I'd love to talk.
 

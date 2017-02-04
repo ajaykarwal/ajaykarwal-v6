@@ -1,96 +1,85 @@
-%font-heading {
-    font-family: $font-family-brand;
-}
-
-%font-body {
-    font-family: $font-family-normal;
-}
-
 h1, h2, h3, h4, h5, h6 {
-    color: $black;
-    font-weight: $font-weight-normal;
-    line-height: 1.3em;
-    margin-bottom: 0.5em;
+  color: $black;
+  font-weight: $font-weight-extra-bold;
+  line-height: 1.3em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
 }
 
 h1 {
-    @include font-size(26px);
-    @media (min-width: $break-sm) {
-        @include font-size(30px);
-    }
+  @include font-size(26px);
+  @media (min-width: $break-sm) {
+    @include font-size(30px);
+  }
 }
 
 h2 {
-    @include font-size(22px);
-    @media (min-width: $break-sm) {
-        @include font-size(26px);
-    }
+  @include font-size(22px);
+  @media (min-width: $break-sm) {
+    @include font-size(26px);
+  }
 }
 
 h3 {
-    @include font-size(18px);
-    @media (min-width: $break-sm) {
-        @include font-size(22px);
-    }
+  @include font-size(18px);
+  @media (min-width: $break-sm) {
+    @include font-size(22px);
+  }
 }
 
 h4 {
-    @include font-size(16px);
-    @media (min-width: $break-sm) {
-        @include font-size(20px);
-    }
+  @include font-size(16px);
+  @media (min-width: $break-sm) {
+    @include font-size(20px);
+  }
 }
 
 h5 {
-    @include font-size(15px);
-    @media (min-width: $break-sm) {
-        @include font-size(18px);
-    }
+  @include font-size(15px);
+  @media (min-width: $break-sm) {
+    @include font-size(18px);
+  }
 }
 
 h6 {
-    @include font-size(13px);
-    @media (min-width: $break-sm) {
-        @include font-size(16px);
-    }
+  @include font-size(13px);
+  @media (min-width: $break-sm) {
+    @include font-size(16px);
+  }
 }
 
 h2, h3, h4, h5, h6 {
-    margin-top: 2em;
-}
-h1+h2,
-h2+h3,
-h3+h4,
-h4+h5,
-h5+h6 {
+  margin-top: 2em;
+
+  & > & {
     margin-top:0;
+  }
 }
 
 small,
 .font_small {
-    @include font-size(11px);
+  @include font-size(11px);
 }
 
 
 a {
+  color: $brand-primary;
+  text-decoration: none;
+  &:focus,
+  &:active,
+  &:hover {
     color: $brand-primary;
-    text-decoration: none;
-
-    &:hover {
-        color: $brand-primary;
-        text-decoration: underline;
-    }
-    /*&:visited {
-        color: #0d47a1;
-    }*/
+  }
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
-
 p {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 b,
 strong {
-    font-weight: $font-weight-bold;
+  font-weight: $font-weight-bold;
 }

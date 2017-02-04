@@ -5,7 +5,7 @@ html {
 }
 body {
     @extend %font-body;
-    @include font-size(15px);
+    @include font-size(18px);
     position:relative;
     padding:0;
     padding-bottom:50px;
@@ -73,11 +73,13 @@ img {
 // Blockquote
 blockquote, .quote {
     margin: 1.5em 0;
-    padding: 0 1.5em;
-    border-left: 0.15em solid $brand-primary;
+    padding: 1.5em;
+    border-left: 0.2em solid $brand-primary;
+    background-color: $white;
+    box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.05);
 
     p {
-        @include font-size(20px);
+        @include font-size(16px);
         line-height: normal;
     }
 
@@ -94,4 +96,8 @@ blockquote, .quote {
         padding-right: 0;
         padding-left: 0;
     }
+}
+
+.emoji {
+    vertical-align: text-top;
 }

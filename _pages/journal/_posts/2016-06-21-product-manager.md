@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Good Product Manager; Bad Product Manager"
-subheading: "An excerpt from 'The Hard Thing About Hard Things' by Ben Horowitz"
-author: Ajay Karwal
 permalink: /journal/:title
 ---
 

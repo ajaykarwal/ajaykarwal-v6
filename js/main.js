@@ -1,6 +1,9 @@
+---
+---
+
 $(document).ready(function () {
 
-    $('body').addClass('fade-in');
+    // $('body').addClass('fade-in');
 
     $('.nav-toggle').click(function () {
         $(this).toggleClass('open');
