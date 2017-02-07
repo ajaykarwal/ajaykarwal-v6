@@ -21,6 +21,7 @@ gems:
   - jekyll-sitemap
   - emoji_for_jekyll
   - jekyll-paginate
+  - html-proofer
 
 # paginate: 2 <- Something for later
 
