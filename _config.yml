@@ -4,6 +4,7 @@ metatitle: User Interface Design and Development Portfolio
 email: ajaykarwal@gmail.com
 description: User interface design and development portfolio for Ajay Karwal
 url: http://ajaykarwal.com # the base hostname & protocol for your site
+encoding: utf-8
 
 google_analytics: UA-16609747-8
 
@@ -29,9 +30,6 @@ include: ["_pages"]
 exclude:
  - Gemfile
  - Gemfile.lock
- - gulpfile.js
- - package.json
- - packages.config
 
 ###### Build settings
 
