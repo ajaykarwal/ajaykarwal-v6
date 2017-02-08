@@ -1,19 +1,33 @@
-sudo: true
 language: ruby
 rvm:
-  - 2.2
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - 2.3.1
+
 install:
+  - bundle install
   - gem install jekyll
   - gem install jekyll-sitemap
   - gem install emoji_for_jekyll
   - gem install pygments.rb
+
 # https://jamiemagee.co.uk/2015/03/31/continuous-deployment-jekyll-to-azure/
 script:
   - chmod +x scripts/build.sh
   - scripts/build.sh
+
 after_success:
   - chmod +x scripts/deploy.sh
   - scripts/deploy.sh
+
+branches:
+  only:
+    - master
+
+sudo: false
+addons:
+  apt:
+    packages:
+      - ncftp
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
