@@ -10,13 +10,10 @@ install:
   - gem install jekyll-sitemap
   - gem install emoji_for_jekyll
   - gem install pygments.rb
-
-
 # https://jamiemagee.co.uk/2015/03/31/continuous-deployment-jekyll-to-azure/
-script: jekyll build --config _config.yml
+script:
+  - chmod +x scripts/build.sh
+  - scripts/build.sh
 after_success:
-  deploy:
-    provider: azure_web_apps
-    username: AZURE_WA_USERNAME
-    password: AZURE_WA_PASSWORD
-    site: AZURE_WA_SITE
+  - chmod +x scripts/deploy.sh
+  - scripts/deploy.sh
