@@ -4,52 +4,45 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.3em;
   margin-bottom: 1em;
   text-transform: uppercase;
-}
 
-h1 {
-  @include font-size(26px);
-  @media (min-width: $break-sm) {
-    @include font-size(30px);
+  &.light {
+    font-weight: $font-weight-normal;
   }
 }
 
+h1 {
+  @include font-size(34px);
+}
+
 h2 {
-  @include font-size(22px);
-  @media (min-width: $break-sm) {
-    @include font-size(26px);
+  @include font-size(24px);
+
+  span {
+    display: block;
+    color: $medium-grey;
+    font-weight: $font-weight-normal;
+    @include font-size(14px);
   }
 }
 
 h3 {
-  @include font-size(18px);
-  @media (min-width: $break-sm) {
-    @include font-size(22px);
-  }
+  @include font-size(22px);
 }
 
 h4 {
-  @include font-size(16px);
-  @media (min-width: $break-sm) {
-    @include font-size(20px);
-  }
+  @include font-size(20px);
 }
 
 h5 {
-  @include font-size(15px);
-  @media (min-width: $break-sm) {
-    @include font-size(18px);
-  }
+  @include font-size(18px);
 }
 
 h6 {
-  @include font-size(13px);
-  @media (min-width: $break-sm) {
-    @include font-size(16px);
-  }
+  @include font-size(16px);
 }
 
 h2, h3, h4, h5, h6 {
-  margin-top: 2em;
+  margin-top: 1.25em;
 
   & > & {
     margin-top:0;

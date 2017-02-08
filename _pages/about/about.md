@@ -9,7 +9,7 @@ comments: false
 
 I am a **user interface designer** and **front-end developer** with over 13 years experience in branding, design and development focusing on pixel-perfect interfaces built with clean readable code. Husband, father and an avid reader of the internet—this is my home.
 
-I'm currently working as **Senior UI Developer** at <a href="http://www.heathwallace.com" target="_blank" title="HeathWallace - Digital solutions for global brands">HeathWallace</a>, where I am shaping the front-end development standards applied across our client projects. Aside from that, you'll find me <a href="http://www.twitter.com/ajaykarwal" target="_blank" title="Follow me on Twitter">tweeting my thoughts</a> or buried in a <a href="https://www.goodreads.com/ajaykarwal" target="_blank" title="My Goodreads profile">good book</a>.
+I'm currently working as **Senior UI Developer** at <a href="http://www.heathwallace.com" target="_blank" title="HeathWallace - Digital solutions for global brands">HeathWallace</a>, a digital agency based in Reading, UK. Aside from that, you'll find me <a href="http://www.twitter.com/ajaykarwal" target="_blank" title="Follow me on Twitter">tweeting my thoughts</a> or buried in a <a href="https://www.goodreads.com/ajaykarwal" target="_blank" title="My Goodreads profile">good book</a>.
 
 
 To discuss your requirements or just to connect please [get in touch]({{ site.baseurl }}/contact/ "Get in touch").
@@ -19,17 +19,17 @@ To discuss your requirements or just to connect please [get in touch]({{ site.ba
 After graduating from Kingston University in 2003 I've steadily built my career, transitioning from designer to front-end developer, whilst working on a number of small yet ambitious startups under the umbrella of my co-founded company, Prama.
 
 
-Since exiting Prama in 2013, I have built on these foundations in both a freelance and agency capacity with an array of clients include Caterpillar, JCB, Ministry of Sound, Kodak, WHSmith, Karen Millen, Oasis, Coast, Habitat, Warehouse, Ted Baker, Thomas Pink, BT, and BSi.
+Since exiting Prama in 2013, I have built on these foundations in both a freelance and agency capacity with an array of clients include HSBC, BT, Caterpillar, JCB, Ministry of Sound, Kodak, WHSmith, Karen Millen, Oasis, Coast, Habitat, Warehouse, Ted Baker, Thomas Pink, and BSi.
 
 
 ## Development
-I'm currently specialising in front-end development and Umbraco integration (for which I am an **Umbraco Certified Developer**) though my experience in multiple fields allows me to approach project from many angles. These skills include - but are not limited to:
+I specialise in UI development though my experience in multiple fields allows me to approach project from many angles. These skills include - but are not limited to:
 
 - HTML5
 - CSS3
 - JavaScript
 - jQuery
-- Sass
+- Sass / Scss
 - Bootstrap
 - Umbraco
 - Wordpress
@@ -44,8 +44,3 @@ Starting my career as a designer I've built up expert knowledge of the **Adobe C
 
 
 I'm a member of a number of creative platforms such as <a href="http://www.behance.net/ajaykarwal" target="_blank" title="My Behance profile">Behance</a> and <a href="http://www.dribbble.com/ajaykarwal" target="_blank" title="My Dribbble profile">Dribbble</a> and always keep my finger on the pulse of the latest design trends. I'm passionate about typography, colour harmony and composition and aim to apply tried and tested design principles to create engaging user experiences.
-
-
-For more information about what I can bring to your project head over to [my featured work]({{ site.baseurl }}/work/ "Featured Work") section.
-
-
