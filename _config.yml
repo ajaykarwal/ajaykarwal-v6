@@ -28,6 +28,7 @@ include: ["_pages"]
 exclude:
  - Gemfile
  - Gemfile.lock
+ - README.md
 
 ###### Build settings
 permalink: /:title/
