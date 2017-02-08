@@ -23,8 +23,6 @@ gems:
   - jekyll-paginate
   - html-proofer
 
-# paginate: 2 <- Something for later
-
 ###### Add _pages directory to jekyll build
 include: ["_pages"]
 
@@ -33,11 +31,9 @@ exclude:
  - Gemfile.lock
 
 ###### Build settings
-
 permalink: /:title/
 sass:
   style: compressed
-
 
 # Conversion
 markdown:    kramdown
