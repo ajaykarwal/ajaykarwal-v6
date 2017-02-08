@@ -7,9 +7,9 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 install:
   - gem install jekyll
-  - gem install html-proofer
+#  - gem install html-proofer
   - gem install jekyll-sitemap
   - gem install emoji_for_jekyll
 script:
   - jekyll build
-  - htmlproofer ./_site
+#  - htmlproofer ./_site
