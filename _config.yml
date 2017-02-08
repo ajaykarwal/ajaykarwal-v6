@@ -21,7 +21,7 @@ gems:
   - jekyll-sitemap
   - emoji_for_jekyll
   - jekyll-paginate
-  - html-proofer
+#  - html-proofer
 
 ###### Add _pages directory to jekyll build
 include: ["_pages"]
