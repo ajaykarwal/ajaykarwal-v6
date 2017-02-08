@@ -20,9 +20,7 @@ disqus_shortname: ajaykarwal
 gems:
   - jekyll-sitemap
   - emoji_for_jekyll
-  - jekyll-paginate
   - pygments.rb
-#  - html-proofer
 
 ###### Add _pages directory to jekyll build
 include: ["_pages"]
