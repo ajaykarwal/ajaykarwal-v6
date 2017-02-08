@@ -12,8 +12,8 @@ install:
   - gem install pygments.rb
 # https://jamiemagee.co.uk/2015/03/31/continuous-deployment-jekyll-to-azure/
 script:
-  - chmod +x scripts/build
-  - ./scripts/build
+  - chmod +x scripts/build.sh
+  - scripts/build.sh
 after_success:
-  - chmod +x scripts/deploy
-  - ./scripts/deploy
+  - chmod +x scripts/deploy.sh
+  - scripts/deploy.sh
