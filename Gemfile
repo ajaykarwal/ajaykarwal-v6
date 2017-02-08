@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'pygments.rb'
-gem 'emoji_for_jekyll'
+# gem 'html-proofer'
 gem 'jekyll-sitemap'
-gem 'html-proofer'
+gem 'emoji_for_jekyll'
+gem 'pygments.rb'
