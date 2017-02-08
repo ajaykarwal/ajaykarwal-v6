@@ -11,14 +11,10 @@
 {% for post in site.categories.today-i-learned %}
 <article>
   <h2 class="title">
+    <span>{{ post.date | date: "%b %-d, %Y" }}:</span>
     <a href="{{ post.url | relative_url }}">
       {{ post.title | escape }}
     </a>
   </h2>
-  <p class="date">
-    <time datetime="{{ page.date }}" itemprop="datePublished">
-      {{ page.date | date: "%b %-d, %Y" }}
-    </time>
-  </p>
 </article>
 {% endfor %}
