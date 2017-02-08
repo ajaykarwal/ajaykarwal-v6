@@ -1,7 +1,7 @@
 ---
   layout: post
   title: "Using Umbraco Dictionary Items as image alt text"
-  permalink: /journal/:title
+  permalink: /journal/:title/
 ---
 
 I was posed with a recent request to allow my content editor to edit the alt text of all the images in Umbraco to help with SEO rankings.

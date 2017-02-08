@@ -1,7 +1,7 @@
 ---
   layout: post
   title:  Thermostatic Radiator Valves
-  permalink: /today-i-learned/:title
+  permalink: /today-i-learned/:title/
 ---
 
 
