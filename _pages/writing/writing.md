@@ -1,12 +1,11 @@
 ---
 layout: page
 title: "Writing"
-permalink: "/journal/"
-order: 3
+permalink: "/writing/"
 comments: false
 ---
 
-{% for post in site.categories.journal %}
+{% for post in site.categories.writing %}
 <article class="article-list-item clearfix">
   <h2 class="title">
     <a href="{{ post.url | relative_url }}">

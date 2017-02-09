@@ -1,7 +1,6 @@
 ---
   layout: post
-  title:  "Making Makr"
-  permalink: /journal/:title/
+  title:  Making Makr
   excerpt_separator: <!--more-->
 ---
 

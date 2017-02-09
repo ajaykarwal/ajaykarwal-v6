@@ -166,7 +166,7 @@ nav {
                 @include font-size(14px);
             }
 
-            @media (max-width: $break-sm) {
+            @media (max-width: ($break-sm - 1) ) {
                 a, a:hover, a:focus {
                     color: $white;
                 }

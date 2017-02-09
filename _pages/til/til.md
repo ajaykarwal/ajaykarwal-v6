@@ -2,13 +2,12 @@
   layout: page
   title: "Today I learned"
   subheading: "Stuff I learned and when I learned it"
-  permalink: "/today-i-learned/"
-  order: 5
+  permalink: "/til/"
   comments: false
 ---
 
 
-{% for post in site.categories.today-i-learned %}
+{% for post in site.categories.til %}
 <article>
   <h2 class="title">
     <span>{{ post.date | date: "%b %-d, %Y" }}:</span>

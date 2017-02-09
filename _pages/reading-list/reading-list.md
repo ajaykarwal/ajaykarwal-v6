@@ -2,7 +2,6 @@
 layout: page
 title: "Reading List"
 permalink: "/reading-list/"
-order: 4
 comments: false
 ---
 
