@@ -32,3 +32,12 @@ env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
     - JEKYLL_ENV=production
+
+
+notifications:
+  email:
+    recipients:
+      - ajaykarwal@gmail.com
+    on_success: always
+    on_failure: always
+
