@@ -3,18 +3,18 @@ title: Ajay Karwal
 metatitle: User Interface Design and Development Portfolio
 email: ajaykarwal@gmail.com
 description: User interface design and development portfolio for Ajay Karwal
-url: http://ajaykarwal.com # the base hostname & protocol for your site
+url: http://ajaykarwal.com
 encoding: utf-8
 
 google_analytics: UA-16609747-8
 
+# Social accounts
 twitter_username: ajaykarwal
 facebook_username: ajaykarwal
 dribbble_username: ajaykarwal
 linkedin_username: ajaykarwal
 behance_username: ajaykarwal
 github_username:  ajaykarwal
-
 disqus_shortname: ajaykarwal
 
 gems:
@@ -22,7 +22,7 @@ gems:
   - emoji_for_jekyll
   - pygments.rb
 
-###### Add _pages directory to jekyll build
+# Add _pages directory to jekyll build
 include: ["_pages"]
 
 exclude:
@@ -30,7 +30,7 @@ exclude:
  - Gemfile.lock
  - README.md
 
-###### Build settings
+#Build settings
 permalink: /:title/
 sass:
   style: compressed
@@ -44,3 +44,12 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: pygments
+
+#Collections
+collections:
+  books:
+    output: true
+    permalink: /:collection/:path/
+
+
+

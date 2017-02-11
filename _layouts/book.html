@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="article" itemscope itemtype="http://schema.org/Book">
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+
+  <div itemprop="review">
+  <div class="row">
+    
+  <div class="col-xs-5 col-sm-3">
+   <img src="/images/books/{{ page.cover }}" alt="{{ book.title }}">
+
+  </div>
+  <div class="col-xs-12 col-sm-9">
+    {{ content }}
+    <p>
+      <a href="{{ page.buylink | escape }}" target="_blank">Buy</a>
+    </p>
+    
+  </div>
+  </div>
+
+  </div>
+
+  <footer>
+  {% include share-page.html %}
+  </footer>
+</article>

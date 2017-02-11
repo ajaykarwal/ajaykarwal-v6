@@ -1,8 +1,7 @@
 ---
-layout: page
-title: "Reading List"
-permalink: "/reading-list/"
-comments: false
+  layout: page
+  title: Reading List
+  permalink: /reading-list/
 ---
 
 I like to read.
@@ -11,7 +10,21 @@ From business and tech leaders to sci-fi and mythology, I try and soak up as muc
 
 
 
-<!-- {% for post in site.categories.reading-list %}
+{% for book in site.books %}
+  <div>
+    <p>
+      <a href="{{ book.url | relative_url }}">
+        {{ book.title | escape }}
+      </a> by {{ book.author }}
+    </p>
+    <p> <img src="/images/books/{{ book.cover }}" alt="{{ book.title }}"> </p>
+    
+  </div>
+{% endfor %}
+
+
+
+{% comment %}
 <article class="blog-item clearfix">
   <h2 class="title">
     <a href="{{ post.url | relative_url }}">
@@ -24,4 +37,4 @@ From business and tech leaders to sci-fi and mythology, I try and soak up as muc
     </time>
   </p>
 </article> 
-{% endfor %} -->
+{% endcomment %}
