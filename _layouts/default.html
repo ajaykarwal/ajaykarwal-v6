@@ -4,6 +4,7 @@
 {% include head.html %}
 
 <body>
+  {% if jekyll.environment == 'production' %}
   <!-- Google Tag Manager -->
   <noscript>
     <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NXVMC4" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -18,6 +19,7 @@
       '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-NXVMC4');
   </script>
+  {% endif %}
 
   <!-- Facebook SDK -->
   <div id="fb-root"></div>
@@ -30,6 +32,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
+
   {% include header.html %}
 
   <main role="main" aria-label="Content">
@@ -37,6 +40,7 @@
   </main>
 
   {% include footer.html %}
+  
   <!-- SCRIPTS -->
   <script type="text/javascript">
     window.slimmage = { verbose: false };
