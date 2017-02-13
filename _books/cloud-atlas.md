@@ -5,6 +5,7 @@
   buylink: http://amzn.to/1UfH4pJ
   cover: cloud-atlas.jpg
   genre: Fiction
+  date: 2013-01-11
 ---
 
 
@@ -24,4 +25,4 @@ The fact that the chapters jump around like this means that I did need to go bac
 
 I’ve given Cloud Atlas rave reviews to everyone I happen to speak to about it and I’m sure the book will stay with me for a long time.
 
-Highly recommended. 5 Stars :smile:
+Highly recommended. 5 Stars

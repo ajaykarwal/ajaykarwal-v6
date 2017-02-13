@@ -4,24 +4,19 @@
   permalink: /reading-list/
 ---
 
-I like to read.
-
-From business and tech leaders to sci-fi and mythology, I try and soak up as much variety as I can. Listed below are a few of my favourites. You can find more on <a href="https://www.goodreads.com/ajaykarwal" target="_blank" title="My Goodreads profile">my Goodreads profile</a>.
+Just a few books I like which I felt deserved a mention. You can find more on <a href="https://www.goodreads.com/ajaykarwal" target="_blank" title="My Goodreads profile">my Goodreads profile</a>.
 
 
-
-{% for book in site.books %}
-  <div>
-    <p>
-      <a href="{{ book.url | relative_url }}">
-        {{ book.title | escape }}
-      </a> by {{ book.author }}
-    </p>
-    <p> <img src="/images/books/{{ book.cover }}" alt="{{ book.title }}"> </p>
-    
+<div class="book-list">
+{% assign sortedbooks = (site.books | sort: 'date') | reverse %}
+{% for book in sortedbooks %}
+  <div class="book-item">
+    <a href="{{ book.url | relative_url }}">
+      <img class="book-cover" src="/images/books/{{ book.cover }}" alt="{{ book.title }}" />
+    </a>
   </div>
 {% endfor %}
-
+</div>
 
 
 {% comment %}

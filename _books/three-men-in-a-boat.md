@@ -5,6 +5,7 @@
   buylink: http://amzn.to/2bzFgPc
   cover: three-men-in-a-boat.jpg
   genre: Fiction
+  date: 2014-03-24
 ---
 
 I found this book in one of those ‘<a href="http://www.stylist.co.uk/books/top-50-free-books-for-your-ereader" target="_blank" title="50 best free books on Kindle - Stylist.co.uk">top 50 free books</a> you have to download' type of lists. I didn't really have any idea what to expect from it.

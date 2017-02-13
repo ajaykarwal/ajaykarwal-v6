@@ -141,69 +141,6 @@ ul.share-page {
 }
 
 
-
-.book-list {
-  .book-genre {
-  }
-  .book-shelf {
-    margin-top:2em;
-  }
-  .book-item {
-    border-bottom:10px solid $light-grey;
-    margin-bottom: 2em;
-  }
-
-  .book-cover {
-    display: block;
-  }
-
-  .book-title {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .book-author {
-    font-style: italic;
-    color: #7f7f7f;
-    margin-top: 0;
-    margin-bottom: 1em;
-  }
-
-  .amazon-link {
-    display: block;
-    text-align: center;
-    @include font-size(12px);
-
-    span {
-      margin-left: 5px;
-    }
-  }
-}
-
-.book-info {
-  margin-bottom: 2em;
-  float: left;
-  width: 80px;
-  margin: 0 1em 1em 0;
-
-  @media (min-width: $break-sm) {
-    width: 40%;
-    margin: 0 2em 2em 0;
-  }
-
-  .amazon-link {
-    display: block;
-    margin-top: 1em;
-    text-align: center;
-    @include font-size(12px);
-
-    span {
-      margin-left: 5px;
-    }
-  }
-}
-
-
 .article-list-item {
   @extend %clearfix;
   margin-bottom: 2em;

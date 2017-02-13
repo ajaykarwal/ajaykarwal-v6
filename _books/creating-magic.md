@@ -5,6 +5,7 @@
   buylink: http://amzn.to/2aBDk3B
   cover: creating-magic.jpg
   genre: Business
+  date: 2013-04-24
 ---
 
 A really enjoyable read with some fantastic tips on becoming a better leader. Most of the points mentioned are straight forward common sense (as the title of the book suggests) but the references to how they were implemented at Disney really reinforces them.

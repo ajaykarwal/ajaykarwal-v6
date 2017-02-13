@@ -5,6 +5,7 @@
   buylink: http://amzn.to/1UfFYdr
   cover: making-ideas-happen.jpg
   genre: Business
+  date: 2012-07-01
 ---
 
 I'm not entirely sure when or why - I must have subconsciously been taking in all the references while on Behance - but I decided to pick up a copy of Making Ideas Happen by Scott Belsky, CEO and founder of Behance.net.

@@ -1,0 +1,33 @@
+.book-list {
+  @include clearfix;
+}
+
+.book-item {
+  float:left;
+  width:33.33%;
+  @media (min-width: $break-sm) {
+    width:20%;
+  }}
+
+.book-cover {
+  display: block;
+  margin-bottom:1em;
+}
+
+.book-author {
+  display: block;
+
+  @media (min-width: $break-sm) {
+    display: inline;
+  }
+}
+
+.amazon-link {
+  display: block;
+  text-align: center;
+  @include font-size(12px);
+
+  span {
+    margin-left: 5px;
+  }
+}

@@ -5,6 +5,7 @@
   buylink: http://amzn.to/2aP39ks
   cover: the-hundred-year-old-man.jpg
   genre: Fiction
+  date: 2013-12-03
 ---
 
 Funny, clever and full of politics.

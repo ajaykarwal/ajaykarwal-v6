@@ -5,6 +5,7 @@
   buylink: http://amzn.to/2biqFXS
   cover: the-hard-thing-about-hard-things.jpg
   genre: Business
+  date: 2016-08-11
 ---
 
 The hard thing about hard things deals with the trials that Ben Horowitz encountered during his career as founder CEO to VC at Andreessen Horowitz. The book gives practical advice on how to grow a company, find the right executives, and deal with the hard decisions along the way.

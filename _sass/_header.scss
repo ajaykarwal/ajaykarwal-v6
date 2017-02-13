@@ -1,176 +1,181 @@
 // Main site header
 header[role="banner"] {
-    @extend .clearfix;
-    padding: 1em 1.5em;
+  @extend .clearfix;
+  padding: 1em 1.5em;
+  position: relative;
+  z-index: 1;
+
+
+  h1.logo {
+    display: block;
+    float: left;
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    margin: 0;
+    margin-top: 5px;
+    line-height: normal;
+    font-size: 1rem;
 
-
-    h1.logo {
-        display: block;
-        float: left;
-        position: relative;
-        z-index: 2;
-        margin: 0;
-        margin-top: 5px;
-        line-height: normal;
-        font-size: 1rem;
-
-        .icon {
-            float: left;
-            width: 30px;
-            height: auto;
-
-            svg {
-                width: inherit;
-                fill: $brand-primary;
-                transition-delay: .2s;
-            }
-        }
-
-
-        .text {
-            float: left;
-            display: block;
-            @extend %font-heading;
-            @include font-size(18px);
-            text-align: left;
-            margin-left: 10px;
-            margin-top: 4px;
-            transition-delay: .2s;
-        }
-
-        .nav-open & {
-            svg {
-                fill: $white;
-                transition: fill;
-            }
-
-            .text {
-                color: $white;
-                transition: color;
-            }
-        }
+    p {
+      padding: 0;
+      margin: 0;
     }
 
-    &:hover {
-        border-color: transparent;
+    .icon {
+      float: left;
+      width: 30px;
+      height: auto;
+
+      svg {
+        width: inherit;
+        fill: $brand-primary;
+        transition-delay: .2s;
+      }
     }
+
+    .text {
+      float: left;
+      display: block;
+      @extend %font-heading;
+      @include font-size(18px);
+      text-align: left;
+      padding: 0;
+      margin-left: 10px;
+      margin-top: 4px;
+      transition-delay: .2s;
+    }
+
+    .nav-open & {
+      svg {
+        fill: $white;
+        transition: fill;
+      }
+
+      .text {
+        color: $white;
+        transition: color;
+      }
+    }
+  }
+
+  &:hover {
+    border-color: transparent;
+  }
 }
 
 .nav-toggle {
-    display: inline-block;
+  display: inline-block;
+  position: absolute;
+  top: 1.5em;
+  right: 1.25em;
+  width: 1.5em;
+  height: 1.5em;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  z-index: 2;
+
+  @media (min-width: $break-sm) {
+    display: none;
+  }
+
+  span {
     position: absolute;
-    top: 1.5em;
-    right: 1.25em;
-    width: 1.5em;
-    height: 1.5em;
-    -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-    z-index: 2;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 1em;
+    background-color: $brand-primary;
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
 
-    @media (min-width: $break-sm) {
-        display: none;
+
+    &:nth-child(1) {
+      top: 0;
     }
 
+    &:nth-child(2),
+    &:nth-child(3) {
+      top: 0.5em;
+    }
+
+    &:nth-child(4) {
+      top: 1em;
+    }
+  }
+
+  &.open {
     span {
-        position: absolute;
-        left: 0;
-        display: block;
-        width: 100%;
-        height: 3px;
-        border-radius: 1em;
-        background-color: $brand-primary;
-        -webkit-transition: .25s ease-in-out;
-        transition: .25s ease-in-out;
+      background-color: $white;
 
+      &:nth-child(1),
+      &:nth-child(4) {
+        top: 0.5em;
+        width: 0%;
+        left: 50%;
+      }
 
-        &:nth-child(1) {
-            top: 0;
-        }
+      &:nth-child(2) {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
 
-        &:nth-child(2),
-        &:nth-child(3) {
-            top: 0.5em;
-        }
-
-        &:nth-child(4) {
-            top: 1em;
-        }
+      &:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+      }
     }
-
-    &.open {
-        span {
-            background-color: $white;
-
-            &:nth-child(1),
-            &:nth-child(4) {
-                top: 0.5em;
-                width: 0%;
-                left: 50%;
-            }
-
-            &:nth-child(2) {
-                -webkit-transform: rotate(45deg);
-                transform: rotate(45deg);
-            }
-
-            &:nth-child(3) {
-                -webkit-transform: rotate(-45deg);
-                transform: rotate(-45deg);
-            }
-        }
-    }
+  }
 }
 
 nav {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    padding: 1.5em;
-    padding-top: 3em;
-    background: $brand-primary;
-    text-align: right;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  padding: 1.5em;
+  padding-top: 3em;
+  background: $brand-primary;
+  text-align: right;
+
+  @media (min-width: $break-sm) {
+    display: block;
+    float: right;
+    position: static;
+    width: auto;
+    padding: 0.5em;
+    background: none;
+  }
+
+  ul {
+    margin: 2em 0 0 0;
+    padding: 0;
 
     @media (min-width: $break-sm) {
-        display: block;
-        float: right;
-        position: static;
-        width: auto;
-        padding: 0.5em;
-        background: none;
+      margin: 0;
     }
 
-    ul {
-        margin: 2em 0 0 0;
-        padding: 0;
+    li {
+      @extend %font-heading;
+      @include font-size(20px);
+      font-weight: $font-weight-normal;
+      padding: 0;
+      margin: 0 0 1.25em 0;
+      list-style-type: none;
 
-        @media (min-width: $break-sm) {
-            margin: 0;
+      @media (min-width: $break-sm) {
+        float: left;
+        margin: 0 0 0 1.5em;
+        @include font-size(14px);
+      }
+
+      @media (max-width: ($break-sm - 1) ) {
+        a, a:hover, a:focus {
+          color: $white;
         }
-
-        li {
-            @extend %font-heading;
-            @include font-size(20px);
-            font-weight: $font-weight-normal;
-            padding: 0;
-            margin: 0 0 1.25em 0;
-            list-style-type: none;
-
-            @media (min-width: $break-sm) {
-                float: left;
-                margin: 0 0 0 1.5em;
-                @include font-size(14px);
-            }
-
-            @media (max-width: ($break-sm - 1) ) {
-                a, a:hover, a:focus {
-                    color: $white;
-                }
-            }
-        }
+      }
     }
+  }
 }
