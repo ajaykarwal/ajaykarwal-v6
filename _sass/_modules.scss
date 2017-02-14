@@ -177,3 +177,26 @@ ul.share-page {
   font-size: smaller;
   font-weight: bold;
 }
+
+ul.influences {
+  @include clearfix;
+  list-style-type: none;
+  padding:0;
+
+  li {
+      float:left;
+      width:50%;
+    padding:0;
+
+    @media (min-width: $break-sm) {
+      float:left;
+      width:25%;
+    }
+  }
+  a {
+    color: $black;
+  }
+  strike a {
+    color: $medium-grey;
+  }
+}

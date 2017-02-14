@@ -10,6 +10,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+
+  & > & {
+    margin-top:0;
+  }
+}
+
 h1 {
   @include font-size(34px);
 
@@ -22,45 +30,37 @@ h1 {
 }
 
 h2 {
-  @include font-size(24px);
+  @include font-size(22px);
+  font-weight: $font-weight-medium;
 
   span {
     display: block;
     color: $medium-grey;
     font-weight: $font-weight-normal;
-    @include font-size(14px);
+    @include font-size(16px);
   }
 }
 
 h3 {
-  @include font-size(22px);
-}
-
-h4 {
   @include font-size(20px);
 }
 
-h5 {
+h4 {
   @include font-size(18px);
+}
+
+h5 {
+  @include font-size(17px);
 }
 
 h6 {
   @include font-size(16px);
 }
 
-h2, h3, h4, h5, h6 {
-  margin-top: 1.25em;
-
-  & > & {
-    margin-top:0;
-  }
-}
-
 small,
 .font_small {
   @include font-size(11px);
 }
-
 
 a {
   color: $brand-primary;

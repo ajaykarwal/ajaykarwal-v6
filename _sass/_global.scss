@@ -19,7 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
 
   @media (min-width: $break-sm) {
-    @include font-size(18px);
+    @include font-size(17px);
   }
 }
 
