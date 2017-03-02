@@ -10,6 +10,11 @@
     "m" : null
   },
   {
+    "n" : "Jonathan Cutrell",
+    "t" : "jcutrell",
+    "m" : null
+  },
+  {
     "n" : "Matt D. Smith",
     "t" : "mds",
     "m" : null
@@ -85,11 +90,6 @@
     "m" : null
   },
   {
-    "n" : "Brian Lovin",
-    "t" : "brian_lovin",
-    "m" : null
-  },
-  {
     "n" : "Jonathan Cutrell",
     "t" : "JCutrell",
     "m" : null
@@ -127,6 +127,16 @@
   {
     "n" : "Jason Levine",
     "t" : "Beatlejase",
+    "m" : null
+  },
+  {
+    "n" : "Corey Barker",
+    "t" : "coreyps3d",
+    "m" : null
+  },
+  {
+    "n" : "RC Concepcion",
+    "t" : "aboutrc",
     "m" : null
   },
   {
