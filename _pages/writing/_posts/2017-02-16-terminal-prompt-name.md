@@ -7,39 +7,40 @@
 As a developer you're likely to spend a lot of time in the Terminal and may have already customised the appearance of it to suit you, but what about the prompt name?
 
 The Terminal prompt name is the text that appears before the `$` sign. By default this is set to
-{% highlight shell %}
-[HOST NAME]:[USER NAME] [CURRENT DIRECTORY] $
-{% endhighlight %}
+
+```
+HOST_NAME:USER_NAME CURRENT_DIRECTORY $
+```
 
 <img src="/images/terminal-1.png" alt="Default Terminal prompt" class="center-block img-responsive" width="500" />
 
 Depending on what you've named your computer, this can take up a lot of valuable real-estate on each line of the Terminal. In order to change this default prompt you will need to make a change to your `.bash_profile` file.
 
 Open up a new Terminal window and type the command
-{% highlight shell %}
+```bash
 $ cd ~/
-{% endhighlight %}
+```
 
 This will ensure you're in your User Home directory. 
 
 Type `ls -la` to show the contents of your Home directory and check if a `.bash_profile` exists.
 
 If it does not exists, you can create one with the command
-{% highlight shell %}
+```bash
 $ touch .bash_profile
-{% endhighlight %}
+```
 
 ## Changing your Terminal prompt
 
 To edit the `.bash_profile` in your default text editor (TextEdit) use the command
-{% highlight shell %}
+```bash
 $ open -e .bash_profile
-{% endhighlight %}
+```
 
 If this is the first time you're editing this file, it should be empty. Add this line to the file and save.
-{% highlight shell %}
+```bash
 $ export PS1="\u$ "
-{% endhighlight %}
+```
 
 The `\u` flag sets the prompt to your User name (in my case, Ajay). Remember to keep a space after the `$` symbol to make things easier to read in practice.
 

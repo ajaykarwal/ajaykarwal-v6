@@ -1,26 +1,25 @@
 ###### Site settings
-title: Ajay Karwal
-metatitle: User Interface Design and Development Portfolio
-email: ajaykarwal@gmail.com
-description: User interface design and development portfolio for Ajay Karwal
-url: http://ajaykarwal.com
-encoding: utf-8
+title             : Ajay Karwal
+metatitle         : User Interface Design and Development Portfolio
+email             : ajaykarwal@gmail.com
+description       : User interface design and development portfolio for Ajay Karwal
+url               : http://ajaykarwal.com
+encoding          : utf-8
 
-google_analytics: UA-16609747-8
+google_analytics  : UA-16609747-8
 
 # Social accounts
-twitter_username: ajaykarwal
-facebook_username: ajaykarwal
-dribbble_username: ajaykarwal
-linkedin_username: ajaykarwal
-behance_username: ajaykarwal
-github_username:  ajaykarwal
-disqus_shortname: ajaykarwal
+twitter_username  : ajaykarwal
+facebook_username : ajaykarwal
+dribbble_username : ajaykarwal
+linkedin_username : ajaykarwal
+behance_username  : ajaykarwal
+github_username   : ajaykarwal
+disqus_shortname  : ajaykarwal
 
 gems:
   - jekyll-sitemap
   - emoji_for_jekyll
-  - pygments.rb
 
 # Add _pages directory to jekyll build
 include: ["_pages"]
@@ -35,15 +34,14 @@ permalink: /:title/
 sass:
   style: compressed
 
-# Conversion
-markdown:    kramdown
-highlighter: pygments
+# # Conversion
+# markdown:    kramdown
 
-# Markdown Processors
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: pygments
+# # Markdown Processors
+# kramdown:
+#   input: GFM
+#   auto_ids: true
+#   syntax_highlighter: rouge 
 
 #Collections
 collections:

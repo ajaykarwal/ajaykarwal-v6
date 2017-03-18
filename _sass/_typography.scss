@@ -1,6 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
   color: $black;
-  font-weight: $font-weight-extra-bold;
   line-height: 1.3em;
   margin-bottom: 1em;
 
@@ -19,6 +18,7 @@ h2, h3, h4, h5, h6 {
 
 h1 {
   @include font-size(34px);
+  font-weight: $font-weight-extra-bold;
 
   span {
     color: $medium-grey;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-  @include font-size(22px);
+  @include font-size(26px);
   font-weight: $font-weight-medium;
 
   span {
@@ -65,6 +65,7 @@ a {
   color: $brand-primary;
   text-decoration: none;
   position: relative;
+  white-space: nowrap;
 
   &:focus,
   &:active,

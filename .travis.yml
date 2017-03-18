@@ -7,7 +7,6 @@ install:
   - gem install jekyll
   - gem install jekyll-sitemap
   - gem install emoji_for_jekyll
-  - gem install pygments.rb
 
 # https://jamiemagee.co.uk/2015/03/31/continuous-deployment-jekyll-to-azure/
 script:

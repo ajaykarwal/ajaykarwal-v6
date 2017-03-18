@@ -14,7 +14,7 @@ Up until now, I had been setting the alt attributes of all images to use the Nam
 
 These have all now been refactored to use a Dictionary Item which is _set as the Name property_ and fallback to the _actual Name property_ when a translation is not available, as below.
 
-{% highlight csharp %}
+```csharp
 alt="@Umbraco.Field('#' + @image.Name, altText: @image.Name)"
-{% endhighlight %}
+```
 

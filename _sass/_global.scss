@@ -14,7 +14,7 @@ body {
   background: $white url(../images/bg-tile.gif) repeat fixed;
   background-size: 101px 101px;
   font-weight: $font-weight-normal;
-  line-height: 1.6em;
+  line-height: 1.6;
   color: $black;
   -webkit-font-smoothing: antialiased;
 
@@ -93,6 +93,12 @@ blockquote, .quote {
   }
 }
 
+.twitter-tweet {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px !important;
+}
+
 .no-gutter {
   margin-right: 0;
   margin-left: 0;
@@ -105,4 +111,9 @@ blockquote, .quote {
 
 .emoji {
   vertical-align: text-top;
+}
+
+pre {
+  margin: 0 0 30px 10px;
+  border: 0;
 }
