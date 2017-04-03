@@ -5,7 +5,7 @@ permalink: "/writing/"
 comments: false
 ---
 
-{% for post in site.categories.writing %}
+{% for post in site.posts %}
 <article class="article-list-item clearfix">
   <h2 class="title">
     <a href="{{ post.url | relative_url }}">
