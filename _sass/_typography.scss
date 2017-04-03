@@ -2,6 +2,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $black;
   line-height: 1.3em;
   margin-bottom: 1em;
+  font-weight: $font-weight-bold;
 
   &.light {
     font-weight: $font-weight-normal;
@@ -30,7 +31,6 @@ h1 {
 
 h2 {
   @include font-size(26px);
-  font-weight: $font-weight-medium;
 
   span {
     display: block;

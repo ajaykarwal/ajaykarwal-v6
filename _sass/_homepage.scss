@@ -18,7 +18,6 @@
   }
   .name {
     margin-top: 0;
-    font-weight: $font-weight-normal;
     @include font-size(28px);
 
     @media (min-width: $break-md) {
