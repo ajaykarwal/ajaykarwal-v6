@@ -8,6 +8,21 @@ install:
   - gem install jekyll-sitemap
   - gem install emoji_for_jekyll
 
+branches:
+  only:
+    - master
+
+env:
+  global:
+    - JEKYLL_ENV=production
+
+notifications:
+  email:
+    recipients:
+      - ajaykarwal@gmail.com
+    on_success: always
+    on_failure: always
+
 # https://jamiemagee.co.uk/2015/03/31/continuous-deployment-jekyll-to-azure/
 script:
   - chmod +x _scripts/build.sh
@@ -17,26 +32,8 @@ after_success:
   - chmod +x _scripts/deploy.sh
   - _scripts/deploy.sh
 
-branches:
-  only:
-    - master
-
 sudo: false
 addons:
   apt:
     packages:
       - ncftp
-
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-    - JEKYLL_ENV=production
-
-
-notifications:
-  email:
-    recipients:
-      - ajaykarwal@gmail.com
-    on_success: always
-    on_failure: always
-
