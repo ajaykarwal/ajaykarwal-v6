@@ -27,6 +27,6 @@ I'm not the most comfortable when it comes to networking and I was finding that 
 
 If the speakers shared their twitter handle I would follow them and maybe tweet at them after the event but that's about as far as it goes.
 
-I started looking for any online communities of people in the local area and other than a handful of very specific Meetup groups, there was nothing. I found a bunch of Slack teams for designers and developers which I joined but I was finding that they were either too global or specific to London or San Fransisco. That's no good to me.
+I started looking for any online communities of people in the local area and other than a handful of very specific Meetup groups, there was nothing. I found a bunch of Slack teams for designers and developers which I joined but I was finding that they were either too global or specific to London or San Francisco. That's no good to me.
 
 By now I'd pretty much decided in my own head that I was going to try and build a local community myself. I discussed the idea with a friend of mine - [@logo_geek](https://twitter.com/logo_geek) - while attending an event and he said he felt some of the same frustrations, thus validated my idea. A few back-and-forth twitter DM's later and the idea was born.
