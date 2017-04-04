@@ -120,7 +120,7 @@ Create a folder in the root called `_scripts` and inside create a build and depl
 bundle exec jekyll build --config _config.yml
 ```
 
-The build script is essentially the same as the command you run in Terminal while building your site locally with the addition of definid the `_config.yml` file as the site's configuration file.
+The build script is essentially the same as the command you run in Terminal while building your site locally with the addition of defining the `_config.yml` file as the site's configuration file.
 
 #### deploy.sh
 
@@ -186,12 +186,3 @@ Deploying your Jekyll website using Travis CI is simple, fast and secure. The Pu
 All of the build process is handled by Travis CI which means you can commit changes to your repository from anywhere, have your code tested and validated and then merge to push your content live. I use this method for making site updates from my phone via the GitHub website.
 
 For more ways to use Travis CI to suit your needs check out the [documentation](https://docs.travis-ci.com/).
-
-
-
-
-
-
-
-
-
