@@ -18,9 +18,6 @@ body {
   color: $black;
   -webkit-font-smoothing: antialiased;
 
-  @media (min-width: $break-sm) {
-    @include font-size(17px);
-  }
 }
 
 @mixin clearfix() {
@@ -43,9 +40,9 @@ body {
 
 
 hr {
-  margin: 1em 0;
+  margin: 2em 0;
+  border: 0;
   background-color: #ccc;
-  border-color: #ccc;
   height: 1px;
 }
 
@@ -53,7 +50,11 @@ ul, ol {
   margin: 1em 0;
 
   li {
-    margin-bottom:0.5em;
+    margin-bottom:0.25em;
+  }
+
+  ul, ol {
+    margin: 0.5em 0;
   }
 }
 
