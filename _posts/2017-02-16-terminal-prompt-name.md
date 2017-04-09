@@ -1,7 +1,7 @@
 ---
   layout: post
   title:  Edit the Terminal Prompt name on macOS
-  permalink: edit-terminal-prompt-on-mac/
+  permalink: /edit-terminal-prompt-on-mac/
 ---
 
 As a developer you're likely to spend a lot of time in the Terminal and may have already customised the appearance of it to suit you, but what about the prompt name?

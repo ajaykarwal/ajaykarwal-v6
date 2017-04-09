@@ -6,6 +6,7 @@ comments: false
 ---
 
 {% for post in site.posts %}
+{% if post.hidden != true %}
 <article class="article-list-item clearfix">
   <h2 class="title">
     <a href="{{ post.url | relative_url }}">
@@ -21,4 +22,6 @@ comments: false
     {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <span class="read-more"><a href="{{ post.url | relative_url }}">Read more</a></span>
   </p>
 </article>
+
+{% endif %}
 {% endfor %}

@@ -37,6 +37,8 @@ I specialise in UI development though my experience in multiple fields allows me
 
 I'm also comfortable working with back-end development in ASP.NET, PHP and Java, as well as all the tools necessary to manage deployment, version control, debugging and performance.
 
+Here is a list of the [tools I use on a regular basis](/uses/).
+
 
 ## Creative
 Starting my career as a designer I've built up expert knowledge of the **Adobe Creative Cloud** suite of apps including **Photoshop**, **Illustrator**, **InDesign** and **Premiere Pro**. As a keen photographer and music lover I am able to utilise these passions to bring an extra layer of creativity to a project - beyond the bounds of simply designing websites.
