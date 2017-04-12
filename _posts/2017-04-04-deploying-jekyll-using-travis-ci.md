@@ -145,7 +145,7 @@ The deploy script performs 3 main tasks
 1. Deletes the `site/wwwroot` directory and recreates an empty one
 1. Copies the contents of the `_site` folder to `/site/wwwroot`
 
-This script was written by [Jamie Magee](https://jamiemagee.co.uk/2015/03/31/continuous-deployment-jekyll-to-azure/) who provided some very helpful guideance during the whole process.
+This script was written by [Jamie Magee](https://jamiemagee.co.uk/2015/03/31/continuous-deployment-jekyll-to-azure/) who provided some very helpful guidance during the whole process.
 
 
 ## Setting up Travis CI
