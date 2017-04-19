@@ -6,9 +6,7 @@
 
 Back in February, I shipped a new version of my website. Only a very slight update to the design but a complete overhaul on how it was built.
 
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;New&quot; version of my website is now live. <a href="https://t.co/3lnJDCSY9S">https://t.co/3lnJDCSY9S</a><br>Content is the same(ish) but its been rebuilt using <a href="https://twitter.com/jekyllrb">@jekyllrb</a> &amp; <a href="https://twitter.com/travisci">@travisci</a></p>&mdash; Ajay Karwal (@ajaykarwal) <a href="https://twitter.com/ajaykarwal/status/829825398385082368">February 9, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% twitter https://twitter.com/ajaykarwal/status/829825398385082368 %}
 
 Everything was originally built using [Umbraco](https://umbraco.com/) – a <abbr title="Content Management System">CMS</abbr> powered by .NET – and hosted on Microsoft Azure. This setup of course was reliant on Windows for developement.
 

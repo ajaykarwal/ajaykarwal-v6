@@ -22,6 +22,7 @@ GEM
       sass (~> 3.4)
     jekyll-sitemap (1.0.0)
       jekyll (~> 3.3)
+    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -47,6 +48,7 @@ DEPENDENCIES
   emoji_for_jekyll
   jekyll
   jekyll-sitemap
+  jekyll-twitter-plugin
 
 BUNDLED WITH
-   1.13.7
+   1.14.4
