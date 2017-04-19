@@ -1,16 +1,16 @@
 h1, h2, h3, h4, h5, h6 {
-  color: $black;
+  color: $brand-primary;
   line-height: 1.3em;
-  margin-bottom: 1em;
-  font-weight: $font-weight-bold;
+  margin-bottom: 0.5em;
+  font-weight: $font-weight-normal;
 
   &.light {
-    font-weight: $font-weight-normal;
+    font-weight: $font-weight-light;
   }
 }
 
 h2, h3, h4, h5, h6 {
-  margin-top: 1.5em;
+  margin-top: 1em;
 
   & > & {
     margin-top:0;
@@ -19,7 +19,7 @@ h2, h3, h4, h5, h6 {
 
 h1 {
   @include font-size(34px);
-  font-weight: $font-weight-extra-bold;
+  font-weight: $font-weight-medium;
 
   span {
     color: $medium-grey;
@@ -91,10 +91,10 @@ a {
 
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 b,
 strong {
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-medium;
 }

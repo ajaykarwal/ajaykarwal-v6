@@ -21,12 +21,17 @@
   
   {% include open-graph.html %}
   
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
-  
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+
+  {% if page.canonical %}
+  <link rel="canonical" href="{{ page.canonical | replace:'index.html','' | absolute_url }}">
+  {% else %}  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  {% endif %}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
+
 
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
