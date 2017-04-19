@@ -14,11 +14,11 @@ This is a list of people who have taught me new skills, new techniques or simply
 <ul class="influences">
 {% for person in site.data.influences %}
   <li>
-  {% if person.m %}<strike>{%endif%}
-    <a href="https://twitter.com/{{ person.t }}" target="_blank">
-      {{ person.n }}
+    {% if person.met %}<strike>{%endif%}
+    <a href="https://twitter.com/{{ person.twitter }}" target="_blank">
+      {{ person.name }}
     </a>
-    {% if person.m %}</strike>{%endif%}
+    {% if person.met %}</strike>{%endif%}
   </li>
 {% endfor %}
 </ul>
