@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% if page.url == "/" %}
+  {% assign schema_itemType = 'http://schema.org/WebPage' %}
+{% else %}
+  {% assign schema_itemType = 'http://schema.org/Article' %}
+{% endif %}
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}" itemscope itemtype="{{ schema_itemType }}">
 
 {% include head.html %}
 
