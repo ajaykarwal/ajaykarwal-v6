@@ -1,10 +1,15 @@
 ###### Site settings
 title             : Ajay Karwal
 metatitle         : User Interface Design and Development Portfolio
-email             : ajaykarwal@gmail.com
 description       : User interface design and development portfolio for Ajay Karwal
-url               : http://ajaykarwal.com
+tagline           : User interface design and development portfolio for Ajay Karwal
+email             : ajaykarwal@gmail.com
+base_url          : http://ajaykarwal.com
 encoding          : utf-8
+
+author:
+  name           : Ajay Karwal
+  email          : ajaykarwal@gmail.com
 
 google_analytics  : UA-16609747-8
 
@@ -16,6 +21,8 @@ linkedin_username : ajaykarwal
 behance_username  : ajaykarwal
 github_username   : ajaykarwal
 disqus_shortname  : ajaykarwal
+
+feed_artwork   : /images/feed-artwork.png
 
 gems:
   - jekyll-sitemap
@@ -34,14 +41,6 @@ permalink: /:title/
 sass:
   style: compressed
 
-# # Conversion
-# markdown:    kramdown
-
-# # Markdown Processors
-# kramdown:
-#   input: GFM
-#   auto_ids: true
-#   syntax_highlighter: rouge 
 
 #Collections
 collections:
@@ -49,5 +48,5 @@ collections:
     output: true
     permalink: /:path/
 
-
+future: false
 

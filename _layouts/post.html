@@ -13,6 +13,12 @@ layout: default
   </header>
 
   <div itemprop="articleBody">
+    {% if page.artwork %}
+    <figure>
+      <img src="/images/posts/{{ page.artwork }}" alt="{{ page.title | escape }}">
+    </figure>
+    {% endif %}
+    
     {{ content }}
   </div>
 

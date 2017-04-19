@@ -1,6 +1,7 @@
 ---
   layout: post
   title:  Deploying a Jekyll website using Travis CI
+  artwork: 'deploying-with-travis.jpg'
 ---
 
 Following on from my post about <a href="{{site.baseurl}}{% link _posts/2017-03-18-switching-from-cms-to-jekyll.md %}">moving from a CMS to Jekyll</a>, the next pain point to tackle is the build and deployment of your site.
