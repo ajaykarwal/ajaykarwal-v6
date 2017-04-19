@@ -16,8 +16,26 @@ layout: default
     I also host <a href="http://inspect.fm" title="Inspect is a a podcast about web development, design and technology">Inspect</a> &mdash; a podcast about web development, design and technology.
   </p>
   <div class="actions">
-    <!-- <a href="/writing/" class="btn btn-primary">Read Blog</a> -->
-    <!-- <a href="https://www.behance.net/ajaykarwal" target="_blank" class="btn btn-primary">View Design Portfolio</a> -->
     <a href="/contact/" class="btn btn-secondary" title="Get in touch">Get In Touch</a>
   </div>
+
+{% comment %}
+<!-- {% assign post = site.posts.first %}
+<article class="cf">
+  <h2>
+    <a href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}
+    </a>
+  </h2>
+  <p class="date">
+    <time datetime="{{ page.date }}" itemprop="datePublished">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </time>
+  </p>
+  <p>
+    {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <span class="read-more"><a href="{{ post.url | relative_url }}">Read more</a></span>
+  </p>
+</article> -->
+{% endcomment %}
+
 </section>
