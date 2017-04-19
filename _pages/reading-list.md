@@ -12,7 +12,7 @@ Just a few books I like which I felt deserved a mention. You can find more on <
 {% for book in sortedbooks %}
   <div class="book-item">
     <a href="{{ book.url | relative_url }}">
-      <img class="book-cover" src="/images/books/{{ book.cover }}" alt="{{ book.title }}" />
+      <img class="book-cover" src="{{ site.base_url }}/images/books/{{ book.cover }}" alt="{{ book.title }}" />
     </a>
   </div>
 {% endfor %}

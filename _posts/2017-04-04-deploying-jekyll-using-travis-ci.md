@@ -157,7 +157,7 @@ For the deploy script to work you need to configure the environment variables fo
 - Find your Jekyll repository, switch Travis CI on and click the gear icon
 - Set the Environment Variables for your FTP host.
 
-<img src="/images/posts/travis-settings.png" alt="Travis CI Environment Settings" class="center-block img-responsive" />
+<img src="{{ site.base_url }}/images/posts/travis-settings.png" alt="Travis CI Environment Settings" class="center-block img-responsive" />
 
 **Note: Build logs for open source projects are publicly visible so remember to keep the 'Display value in build log' option off.**
 

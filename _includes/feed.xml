@@ -14,6 +14,7 @@
     <link>{{site.base_url}}</link>
     <description>{{site.description}}</description>
     <image>
+      <url>{{site.base_url}}{{ site.feed_artwork }}</url>
       <title>{{site.title}}</title>
       <link>{{site.base_url}}</link>
     </image>
@@ -37,20 +38,7 @@
       <link>{{site.base_url}}{{ post.url }}</link>
       <title>{{ post.title }}</title>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <description>{{'<![CDATA['}}{{ post.content }}{{']]>'}}</description>
-      <image>
-        <url>
-          {% if post.artwork %}
-            {{site.base_url}}/images/posts/{{ post.artwork }}
-          {% else %}
-            {{site.base_url}}{{ site.feed_artwork }}
-          {% endif %}
-        </url>
-        <title>{{post.title}}</title>
-        <link>{{site.base_url}}{{ post.url }}</link>
-      </image>
-
-      <guid>{{ post.filename | xml_escape }}</guid>
+      <description>{{'<![CDATA['}}{% if post.artwork %}<figure><img src="{{site.base_url}}/images/posts/{{ post.artwork }}" alt="{{ post.title | escape }}"></figure>{% endif %}{{ post.content }}{{']]>'}}</description>
     </item>
     {% endfor %}
   </channel>

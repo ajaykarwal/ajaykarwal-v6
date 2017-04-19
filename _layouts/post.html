@@ -15,7 +15,7 @@ layout: default
   <div itemprop="articleBody">
     {% if page.artwork %}
     <figure>
-      <img src="/images/posts/{{ page.artwork }}" alt="{{ page.title | escape }}">
+      <img src="{{ site.base_url }}/images/posts/{{ page.artwork }}" alt="{{ page.title | escape }}">
     </figure>
     {% endif %}
     
