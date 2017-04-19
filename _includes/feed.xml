@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  xmlns:webfeeds="http://webfeeds.org/rss/1.0"
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{{site.title}}</title>
+    <atom:link href="{{site.base_url}}/feed.xml" rel="self" type="application/rss+xml" />
+    <link>{{site.base_url}}</link>
+    <description>{{site.description}}</description>
+    <image>
+      <title>{{site.title}}</title>
+      <link>{{site.base_url}}</link>
+    </image>
+    
+    <webfeeds:cover image="{{site.base_url}}{{ site.feed_artwork }}" />
+    <webfeeds:logo>{{site.base_url}}{{ site.feed_artwork }}</webfeeds:logo>
+    <webfeeds:accentColor>A32952</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser" />
+    <webfeeds:analytics id="{{site.google_analytics}}" engine="GoogleAnalytics" />
+
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <language>en</language>
+    <copyright>Copyright {{ site.time | date: '%Y' }}, {{site.title}}</copyright>
+    <managingEditor>{{site.author.email}} ({{ site.author.name }})</managingEditor>
+    <webMaster>{{site.author.email}} ({{ site.author.name }})</webMaster>
+
+    {% for post in site.posts %}
+    <item>
+      <link>{{site.base_url}}{{ post.url }}</link>
+      <title>{{ post.title }}</title>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <description>{{'<![CDATA['}}{{ post.content }}{{']]>'}}</description>
+      <image>
+        <url>
+          {% if post.artwork %}
+            {{site.base_url}}/images/posts/{{ post.artwork }}
+          {% else %}
+            {{site.base_url}}{{ site.feed_artwork }}
+          {% endif %}
+        </url>
+        <title>{{post.title}}</title>
+        <link>{{site.base_url}}{{ post.url }}</link>
+      </image>
+
+      <guid>{{ post.filename | xml_escape }}</guid>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
