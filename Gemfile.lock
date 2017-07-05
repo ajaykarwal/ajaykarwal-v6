@@ -4,8 +4,8 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
-    emoji_for_jekyll (0.2.2)
     ffi (1.9.17)
+    ffi (1.9.17-x64-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.4.0)
       addressable (~> 2.4)
@@ -20,9 +20,6 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-sitemap (1.0.0)
-      jekyll (~> 3.3)
-    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -43,12 +40,10 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
-  emoji_for_jekyll
   jekyll
-  jekyll-sitemap
-  jekyll-twitter-plugin
 
 BUNDLED WITH
-   1.14.4
+   1.15.1

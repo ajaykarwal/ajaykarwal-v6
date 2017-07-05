@@ -6,7 +6,8 @@
 
 Back in February, I shipped a new version of my website. Only a very slight update to the design but a complete overhaul on how it was built.
 
-{% twitter https://twitter.com/ajaykarwal/status/829825398385082368 %}
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">&quot;New&quot; version of my website is now live. <a href="https://t.co/3lnJDCSY9S">https://t.co/3lnJDCSY9S</a><br>Content is the same(ish) but its been rebuilt using <a href="https://twitter.com/jekyllrb">@jekyllrb</a> &amp; <a href="https://twitter.com/travisci">@travisci</a></p>&mdash; Ajay Karwal (@ajaykarwal) <a href="https://twitter.com/ajaykarwal/status/829825398385082368">9 February 2017</a></blockquote>
+
 
 Everything was originally built using [Umbraco](https://umbraco.com/) – a <abbr title="Content Management System">CMS</abbr> powered by .NET – and hosted on Microsoft Azure. This setup of course was reliant on Windows for developement.
 
@@ -14,7 +15,7 @@ I'm a Mac user so in order for me to update my website I needed to run Windows i
 
 When it came to deploying my changes, I would then have to FTP my Views, DocumentTypes (Templates), DataTypes, DLLs and static assets.
 
-Just kill me now. :sob:
+Just kill me now. 😭
 
 ## Up steps Jekyll
 

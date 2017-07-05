@@ -23,11 +23,6 @@ github_username   : ajaykarwal
 disqus_shortname  : ajaykarwal
 
 feed_artwork   : /images/feed-artwork.png
-
-gems:
-  - jekyll-sitemap
-  - emoji_for_jekyll
-  - jekyll-twitter-plugin
   
 # Add _pages directory to jekyll build
 include: ["_pages"]
