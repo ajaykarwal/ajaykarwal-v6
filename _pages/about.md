@@ -3,10 +3,11 @@ layout: page
 title: "About"
 permalink: "/about/"
 comments: false
+experience: 
 ---
 
 
-I am a **user interface designer** and **front-end developer** with over 13 years experience in branding, design and development focusing on pixel-perfect interfaces built with clean readable code. Husband, father and an avid reader of the internet—this is my home.
+I am a **user interface designer** and **front-end developer** with over {{ site.time|date:'%Y'|abs|minus:2003 }} years experience in branding, design and development focusing on pixel-perfect interfaces built with clean readable code. Husband, father and an avid reader of the internet—this is my home.
 
 I'm currently working as **Senior UI Developer** at <a href="http://www.heathwallace.com" target="_blank" title="HeathWallace - Digital solutions for global brands">HeathWallace</a>, a digital agency based in Reading, UK. Aside from that, you'll find me <a href="http://www.twitter.com/ajaykarwal" target="_blank" title="Follow me on Twitter">tweeting my thoughts</a> or buried in a <a href="https://www.goodreads.com/ajaykarwal" target="_blank" title="My Goodreads profile">good book</a>.
 
