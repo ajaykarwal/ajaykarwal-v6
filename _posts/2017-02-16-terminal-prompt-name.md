@@ -62,6 +62,6 @@ Here are a few common flags you can use to customize your Terminal prompt:
 
 ## Going further
 
-There are several options for customising your Terminal prompt including custom strings, timestamps colours and even emoji :point_right:.
+There are several options for customising your Terminal prompt including custom strings, timestamps colours and even emoji 👉.
 
 More information can be found on [OSX Daily](http://osxdaily.com/2006/12/11/how-to-customize-your-terminal-prompt/)
