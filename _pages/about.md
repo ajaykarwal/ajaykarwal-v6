@@ -9,7 +9,7 @@ experience:
 
 I am a **user interface designer** and **front-end developer** with over {{ site.time|date:'%Y'|abs|minus:2003 }} years experience in branding, design and development focusing on pixel-perfect interfaces built with clean readable code. Husband, father and an avid reader of the internet—this is my home.
 
-I'm currently working as **Senior UI Developer** at <a href="http://www.heathwallace.com" target="_blank" title="HeathWallace - Digital solutions for global brands">HeathWallace</a>, a digital agency based in Reading, UK. Aside from that, you'll find me <a href="http://www.twitter.com/ajaykarwal" target="_blank" title="Follow me on Twitter">tweeting my thoughts</a> or buried in a <a href="https://www.goodreads.com/ajaykarwal" target="_blank" title="My Goodreads profile">good book</a>.
+I'm currently working as **Front-end Developer** at <a href="http://www.ecx.io" target="_blank" title="ecx.io - Creating Digital Success">ecx.io</a>, a digital agency based in Bracknell, UK. Aside from that, you'll find me <a href="http://www.twitter.com/ajaykarwal" target="_blank" title="Follow me on Twitter">tweeting my thoughts</a> or buried in a <a href="https://www.goodreads.com/ajaykarwal" target="_blank" title="My Goodreads profile">good book</a>.
 
 
 To discuss your requirements or just to connect please [get in touch]({{ site.baseurl }}/contact/ "Get in touch").
@@ -26,13 +26,12 @@ Since exiting Prama in 2013, I have built on these foundations in both a freelan
 I specialise in UI development though my experience in multiple fields allows me to approach project from many angles. These skills include - but are not limited to:
 
 - HTML5
-- CSS3
-- JavaScript
-- jQuery
-- Sass / Scss
+- CSS3 / Sass / Less
+- JavaScript / ES6 / jQuery
+- React / Redux
+- Gulp / Grunt / Webpack
 - Bootstrap
-- Umbraco
-- Wordpress
+- Wordpress / Umbraco / Sitecore
 - SQL
 - GIT
 
