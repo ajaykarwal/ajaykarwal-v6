@@ -3,11 +3,9 @@
   title: What is Branding?
 ---
 
-This two-minute manifesto by [David Brier](http://www.risingabovethenoise.com/) explains.
-
 A brand is so much more than a logo; a name; a font; a colour.
 
-This two-minute, thought-provoking video combines a simple narrative and beautiful animation to answer that basic question “What is branding?
+This two-minute, thought-provoking manifesto video by [David Brier](http://www.risingabovethenoise.com/) combines a simple narrative and beautiful animation to answer that basic question.
 
 <div class="videoWrapper">
   <iframe width="500" height="281" src="https://www.youtube.com/embed/uaGotppPsCs?feature=oembed" frameborder="0" allowfullscreen=""></iframe>
