@@ -24,7 +24,9 @@ Check out more of my recommended books on my [reading list](/reading-list/)
 - I plan on catching up on the original Blade Runner soon before checking out Blade Runner 2049 (bit late to the game I know).
 
 ## Music
-- Something about music - http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=ajaykarwal&api_key=965b2342a5837db0942394bbc9a31157&format=json
+<p id="lastfmStatus"></p>
+
+You can see what else I've been listening to on my [Last.fm profile](https://www.last.fm/user/ajaykarwal)
 
 ## Gaming
 I recently completed Super Mario Odyssey to 100%. I'm now focusing on playing some Fifa 18 and Captain Toad.
