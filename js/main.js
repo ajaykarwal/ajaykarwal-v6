@@ -17,8 +17,8 @@ $(document).ready(function () {
         const API_KEY = '965b2342a5837db0942394bbc9a31157'
         const LIMIT = 1;
         const PERIOD = '1month';
-        const RECENT_TRACKS = `http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=${USERNAME}&api_key=${API_KEY}&format=json&limit=${LIMIT}`;
-        const TOP_TRACKS = `http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=${USERNAME}&api_key=${API_KEY}&format=json&limit=${LIMIT}&period=${PERIOD}&extended=1`;
+        const RECENT_TRACKS = `https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=${USERNAME}&api_key=${API_KEY}&format=json&limit=${LIMIT}`;
+        const TOP_TRACKS = `https://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=${USERNAME}&api_key=${API_KEY}&format=json&limit=${LIMIT}&period=${PERIOD}&extended=1`;
     
         function updateDOM(topTrack, isTrackPlaying) {
             var trackTitle = topTrack.name;
