@@ -11,7 +11,7 @@ body {
   padding-bottom:50px;
   margin:auto;
   border-top: 2px solid $brand-primary;
-  background: $white url(../images/bg-tile.gif) repeat fixed;
+  background-color: $brand-primary-dark;
   background-size: 101px 101px;
   font-weight: $font-weight-normal;
   line-height: 1.6;
@@ -61,6 +61,10 @@ ul, ol {
 img {
   max-width:100%;
   height:auto !important;
+}
+picture {
+  display: block;
+  margin-bottom: 2em;
 }
 
 // Responsive video embeds

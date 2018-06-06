@@ -4,10 +4,12 @@ layout: default
 
 <article class="article" itemscope itemtype="http://schema.org/Article">
   <header>
-    <h1>{{ page.title | escape }}</h1>
+    <div class="content">
+      <h1>{{ page.title | escape }}</h1>
+    </div>
   </header>
 
-  <div itemprop="articleBody">
+  <div class="content" itemprop="articleBody">
     {{ content }}
   </div>
 

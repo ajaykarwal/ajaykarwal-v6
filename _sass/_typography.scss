@@ -70,28 +70,13 @@ a {
   &:active,
   &:hover {
     color: $brand-primary;
-    text-decoration: none;
-  }
-  &:not(.btn)::after {
-    content: '';
-    height:2px;
-    width:0%;
-    position:absolute;
-    bottom: 2px;
-    left: 50%;
-    background-color: $brand-primary;
-    transition: all 150ms ease-in-out;
-  }
-
-  &:hover::after {
-   width:100%;
-   left:0;
+    text-decoration: underline;
   }
 }
 
-
 p {
-  margin-bottom: 1em;
+  margin: auto;
+  margin-bottom: 2em;
 }
 
 b,

@@ -3,21 +3,22 @@ layout: default
 ---
 <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <h1>{{ page.title | escape }}</h1>
-
-    <p class="date">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: "%b %-d, %Y" }}
-      </time>
-    </p>
+    <div class="content">
+      <p class="date">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: "%b %-d, %Y" }}
+        </time>
+      </p>
+      <h1>{{ page.title | escape }}</h1>
+    </div>
   </header>
 
-  <div itemprop="articleBody">
-    {% if page.artwork %}
-    <figure>
-      <img src="{{ site.base_url }}/images/posts/{{ page.artwork }}" alt="{{ page.title | escape }}">
-    </figure>
-    {% endif %}
+  {% if page.artwork %}
+  <figure>
+    <img src="{{ site.base_url }}/images/posts/{{ page.artwork }}" alt="{{ page.title | escape }}">
+  </figure>
+  {% endif %}
+  <div class="content" itemprop="articleBody">
     
     {{ content }}
   </div>

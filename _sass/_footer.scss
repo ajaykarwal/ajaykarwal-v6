@@ -1,9 +1,7 @@
 footer[role="contentinfo"] {
-    position:fixed;
-    bottom:0;
     width:100%;
-    min-height:50px;
-    background-color: $brand-primary;
+    height:80px;
+    background-color: $brand-primary-dark;
     color: $white;
     text-align: center;
     margin-top:3em;
