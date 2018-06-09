@@ -1,8 +1,9 @@
 h1, h2, h3, h4, h5, h6 {
+  @extend %font-heading;
   color: $brand-primary;
   line-height: 1.3em;
   margin-bottom: 0.5em;
-  font-weight: $font-weight-normal;
+  font-weight: $font-weight-bold;
 
   &.light {
     font-weight: $font-weight-light;
@@ -19,7 +20,7 @@ h2, h3, h4, h5, h6 {
 
 h1 {
   @include font-size(34px);
-  font-weight: $font-weight-medium;
+  font-weight: $font-weight-bold;
 
   span {
     color: $medium-grey;
@@ -62,21 +63,25 @@ small,
 }
 
 a {
-  color: $brand-primary;
-  text-decoration: none;
+  color: $brand-secondary;
+  text-decoration: underline;
   position: relative;
 
   &:focus,
   &:active,
   &:hover {
     color: $brand-primary;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
 p {
   margin: auto;
   margin-bottom: 2em;
+
+  &.lead {
+    @include font-size(22px);
+  }
 }
 
 b,

@@ -1,43 +1,6 @@
-main[role="main"] {
-  padding: 0;
-}
-
 .content {
   margin: 0 auto;
   padding: 0;
   width: 100%;
   padding-top: 4em;
 }
-
-.article {
-    background-color: $white;
-    
-    header {
-      display: flex;
-      align-items: center;
-      background: $brand-primary;
-      background-image: linear-gradient(to right bottom, $brand-primary, $brand-primary-light);
-      height:300px;
-      border-bottom: 2px solid #d9d9d9;
-      
-      h1 {
-        margin-top: 0;
-        color: $white;
-      }
-    }
-
-    h1, h2, h3, h4, h5, h6, p, ul, ol {
-      max-width: 680px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    footer {
-      margin: 4em 0;
-      padding: 1em 0 0 0;
-      border-top: 2px solid #d9d9d9;
-    }
-  
-    figure {
-      margin-bottom: 20px;
-    }
-  }

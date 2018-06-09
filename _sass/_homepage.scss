@@ -1,9 +1,12 @@
 ﻿.homepage {
-  text-align: center;
-  margin-bottom: 2em;
+  
+  &-content {
+    margin-bottom: 2em;
+    text-align: center;
+    background-color: $white;
+  }
 
   .avatar {
-
     img {
       width: 220px;
       @media (min-width: $break-sm) {
@@ -24,7 +27,7 @@
       @include font-size(32px);
     }
   }
-  
+
   .bio {
     @include font-size(18px);
 
@@ -35,7 +38,7 @@
 
   .actions {
     margin-top: 2em;
-    
+
     .btn {
       margin: auto 0.25em 1em;
     }

@@ -1,10 +1,13 @@
 header[role="banner"] {
   @extend .clearfix;
-  padding: 1em 1.5em;
   position: absolute;
   width: 100%;
   z-index: 1;
-
+  
+  .header-content {
+    padding: 1em 1.5em;
+  }
+  
   h1.logo {
     display: block;
     float: left;

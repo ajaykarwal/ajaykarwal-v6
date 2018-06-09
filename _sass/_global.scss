@@ -3,9 +3,10 @@ html {
   height: 100%;
   width: 100%;
 }
+
 body {
   @extend %font-body;
-  @include font-size(16px);
+  @include font-size(17px);
   position:relative;
   padding:0;
   padding-bottom:50px;
@@ -19,25 +20,6 @@ body {
   -webkit-font-smoothing: antialiased;
 
 }
-
-@mixin clearfix() {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-%clearfix {
-  @include clearfix;
-}
-
-.cf,
-.clearfix {
-  @include clearfix;
-}
-
-
 
 hr {
   margin: 2em 0;
@@ -60,35 +42,26 @@ ul, ol {
 
 img {
   max-width:100%;
-  height:auto !important;
+  height:auto;
 }
+
 picture {
+  @include center-content($wide: true);
   display: block;
   margin-bottom: 2em;
 }
 
-// Responsive video embeds
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  margin-bottom: 1em;
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+figure {
+  margin: 0 0 20px 0;
 }
-// Blockquote
-blockquote, .quote {
-  margin: 1.5em 0;
-  padding: 1.5em;
-  border-left: 0.2em solid $brand-primary;
-  background-color: $white;
-  box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.05);
+
+blockquote {
+  @include center-content($wide: true);
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 1.5em 0;
+  border-left: 0.2em solid $brand-primary-light;
+  background-color: $brand-primary-very-light;
   font-size: inherit;
   line-height: normal;
 
@@ -97,30 +70,25 @@ blockquote, .quote {
   }
 }
 
-.twitter-tweet {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px !important;
-}
-
-.no-gutter {
-  margin-right: 0;
-  margin-left: 0;
-
-  & > [class*='col-'] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-.emoji {
-  vertical-align: text-top;
-}
-
 pre {
-  margin: 0 0 30px 30px;
+  @include center-content($wide: true);
+  @include font-size(14px);
+  display: block;
   border: 0;
+  border-radius: 5px;
+  line-height: 1.4;
+  margin: 2em auto 3em;
+  padding: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+
 }
-code {
-  font-family: $font-family-mono;
+code, kbd, samp {
+  @extend %font-mono;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
 }

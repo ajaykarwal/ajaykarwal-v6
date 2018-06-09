@@ -4,7 +4,7 @@ layout: default
 <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <div class="content">
-      <p class="date">
+      <p class="prefix date">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {{ page.date | date: "%b %-d, %Y" }}
         </time>
@@ -18,8 +18,8 @@ layout: default
     <img src="{{ site.base_url }}/images/posts/{{ page.artwork }}" alt="{{ page.title | escape }}">
   </figure>
   {% endif %}
+
   <div class="content" itemprop="articleBody">
-    
     {{ content }}
   </div>
 

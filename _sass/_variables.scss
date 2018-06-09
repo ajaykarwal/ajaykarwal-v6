@@ -8,6 +8,7 @@ $break-lg: 1200px;
 $brand-primary: #518682;
 $brand-primary-dark: #344140;
 $brand-primary-light: #bfd7d7;
+$brand-primary-very-light: #f6f9f9;
 $brand-secondary: #ffcc00;
 $dark-grey: #666666;
 $medium-grey: #7f7f7f;
@@ -19,13 +20,15 @@ $true-black: #000000;
 $text-body: $brand-secondary;
 $text-link: $brand-primary;
 
-@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500|Roboto+Mono');
-$font-family-brand: 'Heebo', 'Helvetica', Arial, sans-serif;
-$font-family-normal: 'Heebo', 'Helvetica', Arial, sans-serif;
-$font-family-mono: 'Roboto Mono', monospace;
 
-%font-heading { font-family: $font-family-brand; }
-%font-body { font-family: $font-family-normal; }
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Martel:400,600,700');
+$font-family-heading: 'Martel', serif;
+$font-family-body: 'Martel', serif;
+$font-family-mono: 'IBM Plex Mono', monospace;
+
+%font-heading { font-family: $font-family-heading; }
+%font-body { font-family: $font-family-body; }
+%font-mono { font-family: $font-family-mono; }
 
 $font-weight-thin: 100;
 $font-weight-light: 300;
@@ -43,31 +46,3 @@ $brand-linkedin: #0077b5;
 $brand-dribbble: #ea4c89;
 $brand-behance: #1769ff;
 $brand-youtube: #cd201f;
-
-
-// Functions and Mixins
-
-@function calculateRem($size) {
-    $remSize: $size / 16px;
-    @return $remSize * 1rem;
-}
-
-@mixin font-size($size) {
-    font-size: $size;
-    font-size: calculateRem($size);
-}
-
-
-@mixin opacity($opacity) {
-    opacity: $opacity;
-    $opacity-ie: $opacity * 100;
-    filter: alpha(opacity=$opacity-ie); //IE8
-}
-
-@mixin fade-in($duration, $delay) {
-    .fade-in & {
-        opacity: 1;
-        transition-duration: #{$duration};
-        transition-delay: #{$delay};
-    }
-}
