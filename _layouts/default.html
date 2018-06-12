@@ -9,7 +9,7 @@
 
 {% include head.html %}
 
-<body>
+<body {% if page.url == "/" %}class="homepage"{% endif %}>
   {% if jekyll.environment == 'production' %}
   <!-- Google Tag Manager -->
   <noscript>

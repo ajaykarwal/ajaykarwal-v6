@@ -19,7 +19,7 @@ comments: false
     </a>
   </h2>
   <p>
-    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+    {{ post.excerpt | strip_html | truncatewords:25 }}
   </p>
 </article>
 
