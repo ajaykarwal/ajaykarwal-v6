@@ -2,7 +2,7 @@ ul.networks {
   @include font-size(16px);
   list-style: none;
   padding:0;
-  margin: 0.75em 0 0 0;
+  margin: 0;
 
   li {
     display: inline-block;
@@ -135,7 +135,9 @@ ul.influences {
 }
 
 
-
+.comments {
+  @include center-content;
+}
 
 .twitter-tweet {
   margin-left: auto;

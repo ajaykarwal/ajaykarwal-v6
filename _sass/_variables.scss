@@ -5,26 +5,26 @@ $break-md: 992px;
 $break-lg: 1200px;
 
 // Colors
-$brand-primary: #518682;
+$brand-primary: #3f7f7b;
 $brand-primary-dark: #344140;
 $brand-primary-light: #bfd7d7;
 $brand-primary-very-light: #f6f9f9;
-$brand-secondary: #ffcc00;
+$brand-secondary: #8e4400;
 $dark-grey: #666666;
 $medium-grey: #7f7f7f;
 $light-grey: #d9d9d9;
 $white: #ffffff;
-$black: #4d4d4d;
+$black: #3f4242;
 $true-black: #000000;
 
 $text-body: $brand-secondary;
 $text-link: $brand-primary;
 
 
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Martel:400,600,700');
-$font-family-heading: 'Martel', serif;
-$font-family-body: 'Martel', serif;
-$font-family-mono: 'IBM Plex Mono', monospace;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500|Faustina:400,500,700');
+$font-family-heading: 'Faustina', serif;
+$font-family-body: 'Faustina', serif;
+$font-family-mono: 'Roboto Mono', monospace;
 
 %font-heading { font-family: $font-family-heading; }
 %font-body { font-family: $font-family-body; }
