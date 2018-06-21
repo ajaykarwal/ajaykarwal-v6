@@ -1,39 +1,7 @@
 ﻿.homepage {
   
   &-content {
-    margin-bottom: 2em;
-    text-align: center;
-    background-color: $white;
-  }
-
-  .avatar {
-    img {
-      width: 220px;
-      @media (min-width: $break-sm) {
-        width: 270px;
-      }
-    }
-  }
-
-  p {
-    line-height: normal;
-    margin-bottom: 1em;
-  }
-  .name {
-    margin-top: 0;
-    @include font-size(28px);
-
-    @media (min-width: $break-md) {
-      @include font-size(32px);
-    }
-  }
-
-  .bio {
-    @include font-size(18px);
-
-    @media (min-width: $break-md) {
-      @include font-size(22px);
-    }
+    @include center-content;
   }
 
   .actions {

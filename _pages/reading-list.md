@@ -2,6 +2,7 @@
   layout: page
   title: Reading List
   permalink: /reading-list/
+  comments: false
 ---
 
 Just a few books I like which I felt deserved a mention. You can find more on <a href="https://www.goodreads.com/ajaykarwal" target="_blank" title="My Goodreads profile">my Goodreads profile</a>.
@@ -17,19 +18,3 @@ Just a few books I like which I felt deserved a mention. You can find more on <
   </div>
 {% endfor %}
 </div>
-
-
-{% comment %}
-<article class="blog-item clearfix">
-  <h2 class="title">
-    <a href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}
-    </a>
-  </h2>
-  <p class="date">
-    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {{ page.date | date: "%b %-d, %Y" }}
-    </time>
-  </p>
-</article> 
-{% endcomment %}

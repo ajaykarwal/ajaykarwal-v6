@@ -1,11 +1,6 @@
 footer[role="contentinfo"] {
-    color: $white;
+    @include font-size(13px);
+    border-top: 2px solid $light-grey;
     text-align: center;
-    @include font-size(15px);
-    padding-top: 1em;
-
-    a {
-        color: $white;
-    }
-
+    padding-top: 2em;
 }

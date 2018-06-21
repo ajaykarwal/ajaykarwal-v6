@@ -1,29 +1,9 @@
-//Breakpoints
-$break-xs: 480px;
-$break-sm: 768px;
-$break-md: 992px;
-$break-lg: 1200px;
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400');
 
-// Colors
-$brand-primary: #3f7f7b;
-$brand-primary-dark: darken($brand-primary, 20%); 
-$brand-primary-light: lighten($brand-primary, 40%);
-$brand-primary-very-light: lighten($brand-primary, 60%);
-$brand-secondary: #8e4400;
-$dark-grey: #666666;
-$medium-grey: #7f7f7f;
-$light-grey: #d9d9d9;
-$white: #ffffff;
-$black: #3f4242;
-$true-black: #000000;
-
-$text-body: $brand-secondary;
-$text-link: $brand-primary;
-
-
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500|Faustina:400,500,700');
-$font-family-heading: 'Faustina', serif;
-$font-family-body: 'Faustina', serif;
+$system-font: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+$font-family-heading: $system-font;
+$font-family-body: $system-font;
 $font-family-mono: 'Roboto Mono', monospace;
 
 %font-heading { font-family: $font-family-heading; }
@@ -39,6 +19,33 @@ $font-weight-extra-bold: 800;
 $font-weight-black: 900;
 
 
+// Breakpoints
+$break-xs: 480px;
+$break-sm: 768px;
+$break-md: 992px;
+$break-lg: 1200px;
+
+
+// Colors
+// $brand-primary: #3f7f7b;
+$brand-primary: #0085ff;
+$brand-primary-dark: darken($brand-primary, 20%); 
+$brand-primary-light: lighten($brand-primary, 40%);
+$brand-primary-very-light: lighten($brand-primary, 60%);
+
+// $brand-secondary: #ab9e7f;
+$brand-secondary: adjust-hue($brand-primary, -120);
+
+$dark-grey: #666666;
+$medium-grey: #7f7f7f;
+$light-grey: #E0E0E0;
+$white: #ffffff;
+$black: #3f4242;
+$true-black: #000000;
+
+$text-body: $black;
+$text-link: $brand-primary;
+
 $brand-twitter: #55acee;
 $brand-facebook: #3b5998;
 $brand-instagram: #a7755c;
@@ -46,3 +53,4 @@ $brand-linkedin: #0077b5;
 $brand-dribbble: #ea4c89;
 $brand-behance: #1769ff;
 $brand-youtube: #cd201f;
+$brand-github: #000000;

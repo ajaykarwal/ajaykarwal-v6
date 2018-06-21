@@ -23,7 +23,7 @@ header[role="banner"] {
 
     svg {
       width: inherit;
-      fill: $brand-primary-dark;
+      fill: $true-black;
     }
 
     .nav-open & {
@@ -157,9 +157,9 @@ nav {
 
       a, a:hover, a:focus {
         color: $white;
-        @media (min-width: ($break-sm) ) {
-          color: $brand-primary-dark;
-        }
+        // @media (min-width: ($break-sm) ) {
+        //   color: $brand-primary-dark;
+        // }
       }
     }
   }

@@ -153,7 +153,7 @@ This script was written by [Jamie Magee](https://jamiemagee.co.uk/2015/03/31/con
 
 For the deploy script to work you need to configure the environment variables for your GitHub repository in Travis CI.
 
-- Go your your [Travis profile](https://travis-ci.org/profile/)
+- Go to your [Travis profile](https://travis-ci.org/profile/)
 - Find your Jekyll repository, switch Travis CI on and click the gear icon
 - Set the Environment Variables for your FTP host.
 

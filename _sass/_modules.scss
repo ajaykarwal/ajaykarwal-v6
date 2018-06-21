@@ -10,29 +10,20 @@ ul.networks {
     margin-right: 1em;
 
     a {
-      span {
-        display: none;
+      svg {
+        height: 16px;
+        width: auto;
+        fill: $dark-grey;
       }
 
-      &.facebook:hover {
-        border-color: $brand-facebook;
-      }
-
-      &.twitter:hover {
-        border-color: $brand-twitter;
-      }
-
-      &.linkedin:hover {
-        border-color: $brand-linkedin;
-      }
-
-      &.dribbble:hover {
-        border-color: $brand-dribbble;
-      }
-
-      &.behance:hover {
-        border-color: $brand-behance;
-      }
+      &.twitter:hover svg { fill: $brand-twitter; }
+      &.facebook:hover svg { fill: $brand-facebook; }
+      &.instagram:hover svg { fill: $brand-instagram; }
+      &.linkedin:hover svg { fill: $brand-linkedin; }
+      &.dribbble:hover svg { fill: $brand-dribbble; }
+      &.behance:hover svg { fill: $brand-behance; }
+      &.youtube:hover svg { fill: $brand-youtube; }
+      &.github:hover svg { fill: $brand-github; }
     }
   }
 }

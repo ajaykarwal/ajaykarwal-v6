@@ -2,50 +2,40 @@
 layout: default
 ---
 
-
   <article class="article" itemscope itemtype="http://schema.org/Article">
     <header>
       <div class="content">
         <p class="prefix">Hi, my name is</p>
         <h1>Ajay Karwal</h1>
-        <p class="lead">
-          A User Interface Designer, Developer and UX Consultant from Wokingham, UK.
+        <p class="suffix">
+          A designer, developer and UX guy from Buckingham, UK.
         </p>
       </div>
     </header>
+    
+    <div class="content homepage-content" itemprop="articleBody">
+
+      <h2>Stuff I've written</h2>
+      
+      <ul class="unstyled">
+        {% for post in site.posts limit:3 %}
+        <li>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </li>
+        {% endfor %}
+        <li>
+          <a href="/writing/">Read more articles &rarr;</a>
+        </li>
+      </ul>
+
+            <p>
+        I also host <b> <a href="http://inspect.fm?ref=portfolio" target="_blank" title="Inspect is a a podcast about web development, design and technology">Inspect</a> </b> &mdash; a podcast about web development, design and technology.
+      </p>
+      <div class="actions">
+        <a href="/contact/" class="btn btn-primary" title="Get in touch">Get In Touch</a>
+      </div>
+
+    </div>
   </article>
-
-  <div class="homepage-content" itemprop="articleBody">
-    <div class="avatar">
-      <img src="{{ site.base_url }}/images/avatar.png" alt="An image of Ajay Karwal" title="That's me!" />
-    </div>
-    <p>
-      I also host
-      <b>
-        <a href="http://inspect.fm?ref=portfolio" target="_blank" title="Inspect is a a podcast about web development, design and technology">Inspect</a>
-      </b> &mdash; a podcast about web development, design and technology.
-    </p>
-    <div class="actions">
-      <a href="/contact/" class="btn btn-secondary" title="Get in touch">Get In Touch</a>
-    </div>
-  </div>
-
-
-{% comment %}
-<!-- {% assign post = site.posts.first %}
-    <article class="cf">
-      <h2>
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h2>
-      <p class="date">
-        <time datetime="{{ page.date }}" itemprop="datePublished">
-          {{ post.date | date: "%b %-d, %Y" }}
-        </time>
-      </p>
-      <p>
-        {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <span class="read-more"><a href="{{ post.url | relative_url }}">Read more</a></span>
-      </p>
-    </article> -->
-{% endcomment %}

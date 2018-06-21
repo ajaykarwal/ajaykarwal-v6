@@ -3,13 +3,13 @@ h1, h2, h3, h4, h5, h6 {
   color: $black;
   line-height: 1.3em;
   margin-bottom: 0.5em;
-  font-weight: $font-weight-medium;
+  font-weight: $font-weight-bold;
 
   &.light {
     font-weight: $font-weight-light;
   }
   a {
-    color: inherit;
+    color: $brand-primary;
   }
 }
 
@@ -23,7 +23,7 @@ h2, h3, h4, h5, h6 {
 
 h1 {
   @include font-size(36px);
-  color: $brand-primary;
+  color: $true-black;
 
   span {
     color: $medium-grey;
@@ -35,7 +35,7 @@ h1 {
 
 h2 {
   @include font-size(28px);
-  color: $brand-primary;
+  color: $true-black;
 
   span {
     display: block;
@@ -68,7 +68,6 @@ small,
 
 a {
   color: $brand-primary;
-  font-weight: $font-weight-medium;
   text-decoration: none;
   position: relative;
   

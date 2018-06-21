@@ -22,8 +22,8 @@
   header {
     display: flex;
     align-items: center;
-    background: $brand-primary;
-    background-image: linear-gradient(to right bottom, $brand-primary, $brand-primary-light);
+    background: $true-black;
+    background-image: linear-gradient(to left top, $true-black, $black);
     height: 300px;
     
     .content {
@@ -35,17 +35,23 @@
       color: $white;
     }
     .prefix {
+      @include font-size(18px);
       color: $brand-primary-light;
       margin-top: 2em;
       margin-bottom: 0;
     }
-    .lead {
+    .suffix {
+      @include font-size(20px);
       color: $brand-primary-light;
+      margin-bottom: 0;
     }
   }
 
   h1, h2, h3, h4, h5, h6, p, ul, ol {
     @include center-content;
+    &:first-of-type {
+      margin-top: 0;
+    }
   }
 
   picture {

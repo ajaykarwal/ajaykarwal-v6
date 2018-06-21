@@ -11,13 +11,10 @@ body {
   padding:0;
   padding-bottom:50px;
   margin:auto;
-  border-top: 2px solid $brand-primary-dark;
-  background-color: $brand-primary-dark;
-  background-size: 101px 101px;
   font-weight: $font-weight-normal;
   line-height: 1.6;
   letter-spacing: 0.1px;
-  color: $black;
+  color: $text-body;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -37,6 +34,12 @@ ul, ol {
 
   ul, ol {
     margin: 0.5em 0;
+  }
+
+  &.unstyled {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
   }
 }
 
