@@ -3,10 +3,14 @@
       {% for network in site.data.networks %}
       <li>
           <a target="_blank" href="{{ network.url }}" class="{{ network.id }}">
-            {% include {{ network.id | prepend: 'social-icons/' | append: '.svg' }} %}
+            {% include {{ network.id | prepend: 'icons/' | append: '.svg' }} %}
           </a>
         </li>        
       {% endfor %}
   </ul>
-  <p> &copy; {{ site.time | date: '%Y' }} Ajay Karwal</p>
+  <p>
+      Copyright &copy; {{ site.time | date: '%Y' }} <a href="https://ajaykarwal.com">Ajay Karwal</a>. Built using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
+      <br>
+      You can see the source code on <a href="https://github.com/ajaykarwal/portfolio" target="_blank">Github.</a>
+  </p>
 </footer>

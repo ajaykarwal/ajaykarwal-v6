@@ -23,8 +23,10 @@
     display: flex;
     align-items: center;
     background: $true-black;
-    background-image: linear-gradient(to left top, $true-black, $black);
     height: 300px;
+    // background-image: linear-gradient(to left top, $true-black, $black);
+    background-image: linear-gradient(to left top, $brand-primary, $brand-primary-dark);
+
     
     .content {
          padding: 0;

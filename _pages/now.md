@@ -6,7 +6,7 @@ comments: false
 experience: 
 ---
 
-Here are some of the things I’m currently focused on. This page is inspired by Derek Siver’s [now page](http://sivers.org/now) suggestion and his [Now Now Now](http://nownownow.com/) movement.
+Here are some of the things I’m currently focused on.
 
 **Last updated:** June 2018.
 
@@ -15,7 +15,7 @@ Here are some of the things I’m currently focused on. This page is inspired by
 - In my day job, my focus is currently on UX, wireframing and rapid prototyping for a new ecommerce project I'm working on.
 
 ## Reading
-I'm current reading [Think and Grow Rich](#) by Napoleon Hill.
+I'm current reading [Think and Grow Rich](https://amzn.to/2MAV7KB) by Napoleon Hill.
 
 Check out more of my recommended books on my [reading list](/reading-list/)
 
@@ -24,9 +24,10 @@ Check out more of my recommended books on my [reading list](/reading-list/)
 - I plan on catching up on the original Blade Runner soon before checking out Blade Runner 2049 (bit late to the game I know).
 
 ## Music
-<p id="lastfmStatus"></p>
-
-You can see what else I've been listening to on my [Last.fm profile](https://www.last.fm/user/ajaykarwal)
+<span id="lastfmStatus"></span>You can see what else I've been listening to on my [Last.fm](https://www.last.fm/user/ajaykarwal) or [Spotify](https://open.spotify.com/user/keynote) profiles.
 
 ## Gaming
-I recently completed Super Mario Odyssey to 100%. I'm now focusing on playing some Fifa 18 and Captain Toad.
+I recently completed Super Mario Odyssey to 100%. I'm now focusing on playing some Fifa 18, Rocket League and Fortnite.
+
+
+This page is inspired by Derek Siver’s [now page](http://sivers.org/now) suggestion and his [Now Now Now](http://nownownow.com/) movement.

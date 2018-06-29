@@ -80,7 +80,7 @@ a {
 
 p {
   margin: auto;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 
   &.lead {
     @include font-size(22px);

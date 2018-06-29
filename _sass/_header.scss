@@ -23,7 +23,8 @@ header[role="banner"] {
 
     svg {
       width: inherit;
-      fill: $true-black;
+      // fill: $true-black;
+      fill: darken($brand-primary-dark, 5);
     }
 
     .nav-open & {
