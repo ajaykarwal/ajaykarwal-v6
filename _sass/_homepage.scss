@@ -1,8 +1,4 @@
 ﻿.homepage {
-  
-  &-content {
-    @include center-content;
-  }
 
   .name span {    
     svg {
@@ -47,6 +43,7 @@
   }
 
   .actions {
+    @include center-content;
     margin-top: 2em;
 
     .btn {

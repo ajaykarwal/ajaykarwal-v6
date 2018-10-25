@@ -30,7 +30,7 @@ $break-lg: 1200px;
 $brand-primary: #0085ff;
 $brand-primary-dark: darken($brand-primary, 30%); 
 $brand-primary-light: lighten($brand-primary, 40%);
-$brand-primary-very-light: lighten($brand-primary, 60%);
+$brand-primary-very-light: lighten($brand-primary, 48%);
 
 // $brand-secondary: #ab9e7f;
 $brand-secondary: adjust-hue($brand-primary, -120);
@@ -53,3 +53,10 @@ $brand-dribbble: #ea4c89;
 $brand-behance: #1769ff;
 $brand-youtube: #cd201f;
 $brand-github: #000000;
+
+// Spacing
+
+$space: 20px;
+$space-sm: 10px;
+$space-md: 30px;
+$space-lg: 40px;

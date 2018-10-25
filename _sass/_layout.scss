@@ -4,8 +4,11 @@ main {
 }
 
 .content {
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
-  padding-top: 4em;
+  h1,h2,h3,h4,h5,h6,p,ul,ol{
+    @include center-content;
+  }
+}
+
+.content-wrapper {
+  padding: 0 $space-md;
 }

@@ -3,7 +3,7 @@
   title: Steve Jobs
   author: Walter Isaacson
   buylink: http://amzn.to/2bis1la
-  cover: steve-jobs.jpg
+  cover: steve-jobs
   genre: Non-Fiction
   date: 2012-11-01
 ---

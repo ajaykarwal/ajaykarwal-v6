@@ -2,26 +2,30 @@
 layout: default
 ---
 
-  <article class="article" itemscope itemtype="http://schema.org/Article">
-    <header>
-      <div class="content">
-        <p class="prefix">Hi, my name is</p>
-        <h1 class="name">Ajay Karwal
-          <span data-title="It's pronounced 'Uh-Jay' but most people say 'A-Jay' which is fine too :)">
-            ?
-          </span></h1>
-        <p class="suffix">
-          A designer, developer and UX guy from Wokingham, UK.
-        </p>
-      </div>
-    </header>
-    
-    <div class="content homepage-content" itemprop="articleBody">
+<article class="article" itemscope itemtype="http://schema.org/Article">
+  <header>
+    <div class="content">
+      <p class="prefix">Hi, my name is</p>
+      <h1 class="name">Ajay Karwal
+        <span data-title="It's pronounced 'Uh-Jay' but most people say 'A-Jay' which is fine too :)">
+          ?
+        </span></h1>
+      <p class="suffix">
+        A designer, developer and UX guy from Buckingham, UK.
+      </p>
+    </div>
+  </header>
 
-      <p>Here's what I'm up to right <a href="/now/">now</a>.</p>
-    
+  <div class="content-wrapper homepage-content" itemprop="articleBody">
+    <div class="content">
+      <h2>Welcome</h2>
+
+      <p>Find out more <a href="/about">about me</a> and my experience. You can see a selection of my previous design
+        work on my <a href="https://www.behance.net/ajaykarwal?ref=portfolio" target="_blank">Behance</a> and <a href="https://www.dribbble.com/ajaykarwal?ref=portfolio"
+          target="_blank">Dribbble</a> profiles, or find out what I'm up to right <a href="/now">now</a>.</p>
+
       <h2>Stuff I've written</h2>
-      
+
       <ul class="unstyled">
         {% for post in site.posts limit:3 %}
         <li>
@@ -30,17 +34,20 @@ layout: default
           </a>
         </li>
         {% endfor %}
+        <li>&hellip;</li>
         <li>
           <a href="/writing/">Read more articles &rarr;</a>
         </li>
       </ul>
-
-            <p>
-        I also host <b> <a href="http://inspect.fm?ref=portfolio" target="_blank" title="Inspect is a a podcast about web development, design and technology">Inspect</a> </b> &mdash; a podcast about web development, design and technology.
+      <hr>
+      <p>
+        I also host <b> <a href="http://inspect.fm?ref=portfolio" target="_blank" title="Inspect is a a podcast about web development, design and technology">Inspect</a>
+        </b> &mdash; a podcast about web development, design and technology.
       </p>
       <div class="actions">
         <a href="/contact/" class="btn btn-primary" title="Get in touch">Get In Touch</a>
       </div>
 
     </div>
-  </article>
+  </div>
+</article>
