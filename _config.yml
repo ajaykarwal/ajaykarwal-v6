@@ -20,7 +20,7 @@ feed_artwork   : /images/feed-artwork.png
 # Add _pages directory to jekyll build
 include: ["_pages"]
 
-gems: ["emoji_for_jekyll"]
+plugins: ["emoji_for_jekyll"]
 
 exclude:
  - Gemfile
