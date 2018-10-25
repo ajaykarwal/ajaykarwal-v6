@@ -1,0 +1,8 @@
+.hidden {
+  display: none !important;
+}
+
+.cf,
+.clearfix {
+  @include clearfix;
+}

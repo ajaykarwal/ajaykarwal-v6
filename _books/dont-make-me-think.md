@@ -3,7 +3,7 @@
   title: "Don't Make Me Think: A Common Sense Approach to Web Usability (Voices That Matter)"
   author: Steve Krug
   buylink: http://amzn.to/2k5nGFS
-  cover: dont-make-me-think.jpg
+  cover: dont-make-me-think
   genre: Tech
   date: 2016-11-04
 ---

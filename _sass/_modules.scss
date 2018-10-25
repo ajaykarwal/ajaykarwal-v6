@@ -2,7 +2,7 @@ ul.networks {
   @include font-size(16px);
   list-style: none;
   padding:0;
-  margin: 0.75em 0 0 0;
+  margin: 0;
 
   li {
     display: inline-block;
@@ -10,59 +10,20 @@ ul.networks {
     margin-right: 1em;
 
     a {
-      span {
-        display: none;
+      svg {
+        height: 16px;
+        width: auto;
+        fill: $dark-grey;
       }
 
-      &.facebook:hover {
-        border-color: $brand-facebook;
-      }
-
-      &.twitter:hover {
-        border-color: $brand-twitter;
-      }
-
-      &.linkedin:hover {
-        border-color: $brand-linkedin;
-      }
-
-      &.dribbble:hover {
-        border-color: $brand-dribbble;
-      }
-
-      &.behance:hover {
-        border-color: $brand-behance;
-      }
-    }
-  }
-}
-
-ul.tags {
-  margin:0;
-  padding:0;
-
-  li {
-    display: inline-block;
-    @include font-size(12px);
-    margin:0;
-
-    &:first-of-type {
-      margin-right: 7px;
-    }
-
-    &:after {
-      content: "•";
-      display: inline-block;
-      color: $white;
-      margin: 0 7px;
-    }
-
-    &:first-of-type,
-    &:last-of-type {
-      &:after {
-        content: "";
-        display: none;
-      }
+      &.twitter:hover svg { fill: $brand-twitter; }
+      &.facebook:hover svg { fill: $brand-facebook; }
+      &.instagram:hover svg { fill: $brand-instagram; }
+      &.linkedin:hover svg { fill: $brand-linkedin; }
+      &.dribbble:hover svg { fill: $brand-dribbble; }
+      &.behance:hover svg { fill: $brand-behance; }
+      &.youtube:hover svg { fill: $brand-youtube; }
+      &.github:hover svg { fill: $brand-github; }
     }
   }
 }
@@ -141,47 +102,6 @@ ul.share-page {
 }
 
 
-.article-list-item {
-  @extend %clearfix;
-  margin-bottom: 2em;
-  padding-bottom: 1em;
-  border-bottom: 1px dashed $light-grey;
-
-  .title {
-    margin-top:0;
-  }
-  .date {
-    margin-bottom:1em;
-  }
-}
-
-.article {
-  header {
-    margin: 0 0 2em 0;
-    border-bottom: 2px solid #d9d9d9;
-    
-    h1 {
-      margin-bottom: 0.25em;
-    }
-  }
-
-  footer {
-    margin: 4em 0;
-    padding: 1em 0 0 0;
-    border-top: 2px solid #d9d9d9;
-  }
-
-  figure {
-    margin-bottom: 20px;
-  }
-}
-
-.read-more {
-  text-transform: uppercase;
-  font-size: smaller;
-  font-weight: bold;
-}
-
 ul.influences {
   @include clearfix;
   list-style-type: none;
@@ -202,5 +122,35 @@ ul.influences {
   }
   strike a {
     color: $medium-grey;
+  }
+}
+
+
+.comments {
+  @include center-content;
+}
+
+.twitter-tweet {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px !important;
+}
+
+.emoji {
+  vertical-align: text-top;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-bottom: 1em;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }

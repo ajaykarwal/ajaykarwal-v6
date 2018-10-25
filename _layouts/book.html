@@ -11,22 +11,19 @@ layout: default
     </h1>
 
   </header>
-  <div itemprop="review">
-    <div class="row">
-      <div class="col-xs-5 col-sm-3">
-        <img class="book-cover" src="{{ site.base_url }}/images/books/{{ page.cover }}" alt="{{ book.title }}">
-      </div>
-      <div class="col-xs-12 col-sm-9">
-        {{ content }}
-        {% if page.buylink %}
-        <p>
-          <a class="btn btn-primary" href="{{ page.buylink | escape }}" target="_blank">Get it on Amazon</a>
-        </p>
-        {% endif %}
-      </div>
-    </div>
-  </div>
 
+  <div class="content book-page" itemprop="review">
+      <img class="book-cover" src="{{ site.url }}/images/books/{{ page.cover }}.jpg" alt="{{ book.title }}">
+
+      {{ content }}
+
+      {% if page.buylink %}
+      <p>
+        <a class="btn btn-primary" href="{{ page.buylink | escape }}" target="_blank">Get it on Amazon</a>
+      </p>
+      {% endif %}
+
+  </div>
 
   <footer>
     {% include share-page.html %}

@@ -1,19 +1,11 @@
 footer[role="contentinfo"] {
-    position:fixed;
-    bottom:0;
-    width:100%;
-    min-height:50px;
-    background-color: $brand-primary;
-    color: $white;
-    text-align: center;
-    margin-top:3em;
+  @include font-size(13px);
+  border-top: 2px solid $light-grey;
+  text-align: center;
+  padding-top: 2em;
 
-    p {
-        @include font-size(12px);
-    }
-
-    a {
-        color: $white;
-    }
-
+  .content {
+    @include center-content;
+    padding-top: 0;
+  }
 }

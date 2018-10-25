@@ -7,7 +7,7 @@ comments: false
 
 I thought it would be interesting and somewhat useful to share a list of hardware, software, apps and other tools I use on a daily basis both at work and in my personal life.
 
-The list is up to date as of April 2017.
+The list is up to date as of October 2018.
 
 - [Hardware](#hardware)
   - [MacBook Pro](#macbook-pro)
@@ -16,15 +16,13 @@ The list is up to date as of April 2017.
   - [Storage](#storage)
   - [Reading](#reading)
 - [Software](#software)
-  - [Sublime Text 3](#sublime-text-3)
-  - [Google Chrome](#google-chrome)
+  - [Text Editor](#text-editor)
+  - [Browser](#browser)
   - [Terminal](#terminal)
-  - [Adobe Creative Cloud](#adobe-creative-cloud)
-  - [Sketch](#sketch)
+  - [Design Tools](#design-tools)
   - [Slack](#slack)
   - [Note Taking](#note-taking)
-  - [Dropbox](#dropbox)
-  - [Accounting](#accounting)
+  - [Cloud Storage](#cloud-storage)
 - [Podcasts](#podcasts)
 
 
@@ -65,66 +63,56 @@ I have a **[Kindle Fire HDX](http://amzn.to/2chJzcz)** 16GB version. I do prefer
 
 ## Software
 
-### Sublime Text 3
+### Text Editor
 
-My code editor of choice is **Sublime Text 3**. It's fast, available on Mac and Windows and the library of available plugins is huge. I don't have a lot of plugins installed for Sublime. The most important one though by far is **[Emmet](https://emmet.io/)**.
+My code editor of choice is **Visual Studio Code**. It's fast, available on Mac and Windows and the library of available plugins is huge. 
 
-I'm using the [Cobalt2](https://github.com/wesbos/cobalt2) theme by Wes Bos becuase [friends don't let friends use Monokai](https://twitter.com/wesbos/status/794555918402732032) and I [sync my settings via GitHub](https://github.com/ajaykarwal/sublime-settings) which makes it handy when switching computers.
+I'm using the 'Material Theme Darker' theme with 'Operator Mono' font. It's a beautiful combination.
 
-### Google Chrome
+### Browser
 
 **Google Chrome** is my browser of choice for browsing and developing. Of coure I have all other major browsers to hand for testing but the Dev Tools in Chrome are so far ahead of the curve compared to the others that I could probably never fully switch to another.
 
 ### Terminal
 
-I'm not a particularly heavy command line user so I stick with the stock macOS Terminal with a couple of small customisations.
+I'm not a particularly heavy command line user but I do prefer to use [iTerm2](https://www.iterm2.com) with a slighly customised theme. You can find my `profile.json` file [here](https://github.com/ajaykarwal/iterm-profile).
 
-### Adobe Creative Cloud
-
-I've played about with **Sketch** and **Affinity Designer** but I feel most comfortable in **Photoshop** and **Illustrator**. 
+### Design Tools
+I mainly use a combination of **Sketch**, **Photoshop** and **Illustrator** and export my design to **InVision** for prototyping.
 
 I occasionally dabble in some photography and video editing so **Lightroom** and **Premiere Pro** are always installed on my machine too.
 
-### Sketch
-
-Only recently started using Sketch. As mentioned above, I'm an Adobe user but figured I would try and get another tool under my belt.
 
 ### Slack
 
-I love **Slack**. I've worked in companies that exclusively use Skype for internal communication (or even worse, Skype for Business) and also tried out Microsoft Teams but the features and integrations with Slack - especially as dev who needs to share code with others in a well formatted way makes Slack the standout tool.
+I love **Slack**. I've worked in companies that exclusively use Skype for internal communication (or even worse, Skype for Business) and also tried out Microsoft Teams but the features and integrations with Slack - especially as a developer who needs to share code with others in a well formatted way - makes Slack the standout tool.
 
-I also use Slack for a community side-project I've set up at [makr.tv](http://makr.tv). It's a community for creative people in the Thames Valley (UK) area - Go check it out.
 
 ### Note Taking
 
-I use Markdown for drafting notes and writing blog posts and **[Typora](http://www.typora.io/)** is a brilliant app for this. It's available for Mac and PC and has a super clean interface. I save my `.md` files to Dropbox so they're available everywhere and use [iA Writer](https://ia.net/writer/) when editing them on my phone.
+I've rekindled my love for **[Evernote](http://www.evernote.com/)** since I started digitising all my physical paperwork which I'd been hoarding over the years. I use a combination of their [Scannable](https://evernote.com/products/scannable) app and browser extensions to pretty much organise everything in my life now.
 
-### Dropbox
+### Cloud Storage
 
-It's not perfect but it fits in best with the way I work. I also have my iPhone camera roll automatically back up to Dropbox so I don't have to fiddle with iTunes to get photos onto my computer.
-
-### Accounting
-
-I use **[Crunch Accounting](http://www.crunch.co.uk/referrals/?c2c=ak16891e)** for managing my freelance work accounts. A brilliant service which, although more expensive than other online accounting services such as Xero, Cruch comes with a dedicated accountant and takes care of all the HMRC stuff which everyone hates! You should definitely check it out!
+I keep all my day-to-day files and client work in a combination of Dropbox and Google Drive which are synced across all my computers. It's not perfect but it fits in best with the way I work. I use Box for more long-term archiving and dont have the Box folder synced to my computers.
 
 
 ## Podcasts
 
-Over the past year I've really gotten into listening to podcasts. SO much so that I even [started my own](http://inspect.fm). This is a list of the ones I listen to most regularly.
+I really love listening to podcasts. So much so that I even [started my own](http://inspect.fm). This is a list of the ones I listen to most regularly.
 
 - [Inspect](http://inspect.fm)
 - [Accidental Tech Podcast](http://atp.fm)
 - [Developer Tea](https://spec.fm/podcasts/developer-tea)
+- [Syntax](http://syntax.fm/)
 - [Layout](http://layout.fm/)
 - [The Talk Show](https://daringfireball.net/thetalkshow)
-- [Immutable](https://spec.fm/podcasts/immutable)
 - [The Big Web Show](http://5by5.tv/bigwebshow)
-- [This Week I Learned](http://theweek.com/audio)
 - [Toolsday](http://toolsday.io/)
-- [Reset](https://itunes.apple.com/us/podcast/reset/id1153460905?mt=2)
 - [HipHop Saved My Life](https://audioboom.com/channel/romeshranganathan)
-- [The Back to Front Show](http://backtofrontshow.com)
-- [Design vs Dev](http://agileleague.com/agile-podcast/)
+- [The Soundtrack Show](https://www.soundtrackpodcast.com/)
+- [The Tim Ferris Show](https://tim.blog/podcast/)
+- [Stuff You Should Know](https://www.stuffyoushouldknow.com/podcasts)
 
 ---
 

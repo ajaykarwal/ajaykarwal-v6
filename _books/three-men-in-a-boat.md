@@ -3,7 +3,7 @@
   title: Three Men in a Boat
   author: Jerome K. Jerome
   buylink: http://amzn.to/2bzFgPc
-  cover: three-men-in-a-boat.jpg
+  cover: three-men-in-a-boat
   genre: Fiction
   date: 2014-03-24
 ---

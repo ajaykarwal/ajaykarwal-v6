@@ -1,7 +1,12 @@
 .btn {
+    @include font-size(14px);
     border-radius: 0;
     padding: 0.75em 1.5em;
-    @include font-size(14px);
+
+    &:focus, &.focus, &:hover, &:active, &.active,
+    &:active:hover, &.active:hover, &:active:focus, &.active:focus, &:active.focus, &.active.focus {
+        text-decoration: none;
+    }
 }
 
 .btn-link {
@@ -19,8 +24,8 @@
 
     &:focus, &.focus, &:hover, &:active, &.active,
     &:active:hover, &.active:hover, &:active:focus, &.active:focus, &:active.focus, &.active.focus {
-        background-color: darken($light-grey, 3);
-        border-color: darken($light-grey, 3);
+        background-color: darken($light-grey, 10);
+        border-color: darken($light-grey, 10);
     }
 }
 .btn-primary {
@@ -30,8 +35,8 @@
 
     &:focus, &.focus, &:hover, &:active, &.active,
     &:active:hover, &.active:hover, &:active:focus, &.active:focus, &:active.focus, &.active.focus {
-        background-color: darken($brand-primary, 3);
-        border-color: darken($brand-primary, 3);
+        background-color: darken($brand-primary, 10);
+        border-color: darken($brand-primary, 10);
     }
 }
 

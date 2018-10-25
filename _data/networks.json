@@ -1,0 +1,33 @@
+[
+    {
+        "id" : "twitter",
+        "name": "Twitter",
+        "url" : "http://www.twitter.com/ajaykarwal"
+    },
+    {
+        "id" : "facebook",
+        "name": "Facebook",
+        "url" : "http://www.facebook.com/ajaykarwal"
+    },
+    {
+        "id" : "dribbble",
+        "name": "Dribbble",
+        "url" : "http://www.dribbble.com/ajaykarwal"
+    },
+    {
+        "id" : "linkedin",
+        "name": "Linkedin",
+        "url" : "http://www.linkedin.com/in/ajaykarwal"
+    },
+    {
+        "id" : "behance",
+        "name": "Behance",
+        "url" : "http://www.behance.net/ajaykarwal"
+    },
+    {
+        "id" : "github",
+        "name": "Github",
+        "url" : "http://www.github.com/ajaykarwal"
+    }
+]
+  

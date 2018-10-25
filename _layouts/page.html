@@ -4,11 +4,15 @@ layout: default
 
 <article class="article" itemscope itemtype="http://schema.org/Article">
   <header>
-    <h1>{{ page.title | escape }}</h1>
+    <div class="content">
+      <h1>{{ page.title | escape }}</h1>
+    </div>
   </header>
 
-  <div itemprop="articleBody">
-    {{ content }}
+  <div class="content-wrapper" itemprop="articleBody">
+    <div class="content">
+      {{ content }}
+    </div>
   </div>
 
   <footer>
@@ -18,8 +22,10 @@ layout: default
   {% if site.disqus_shortname %}
     {% if page.comments != false %}
     <aside>
-      <h2>Comments</h2>
-      {% include disqus_comments.html %}
+      <div class="content-wrapper">
+        <h2>Comments</h2>
+        {% include disqus_comments.html %}
+      </div>
     </aside>
     {% endif %}
   {% endif %}

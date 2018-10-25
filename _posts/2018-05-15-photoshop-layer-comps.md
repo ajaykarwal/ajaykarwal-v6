@@ -6,7 +6,7 @@
 
 Layer Comps are a great way to quickly show and hide a combination of layers in Photoshop without the need to group all the layers first. This is especially helpful when you need to change the state of layers which are at different positions on the z-axis of the document (the stacking order of layers) meaning the layers cant sit within the same layer group.
 
-<img src="{{ site.url }}/images/posts/switching-layer-comps.gif" alt="Switching Layer Comps" class="center-block img-responsive" />
+{% include post-image.html file="switching-layer-comps.gif" alt="Switching Layer Comps" %}
 
 Using Layer Comps allows you to organise your layers into a specific state and take a snapshot of that arrangement. You can then change the visibility, position, and even the appearance (Layer Styles) of your layers and use the Layer Comp you saved to return to the previous snapshot whenever you want to.
 
@@ -22,7 +22,7 @@ To set up a Layer Comp, first get your Photoshop document into a state you are h
 
 Open the Layer Comps panel from `Window > Layer Comps` and click on the 'Create New Layer Comp' icon.
 
-<img src="{{ site.url }}/images/posts/new-layer-comp.png" alt="New Layer Comp" class="center-block img-responsive" width="50%" />
+{% include post-image.html file="new-layer-comp.png" alt="New Layer Comp" %}
 
 Give your comp a name and select which options you want to apply to your layers. You can also add a more descriptive comment which appears in the Layer Comps panel just below the name. Press Save to add your comp to the list.
 
@@ -30,7 +30,7 @@ Now make changes to your document layers to get your document into a new state a
 
 You can now quickly switch between these document states.
 
-<img src="{{ site.url }}/images/posts/create-new-comp.gif" alt="Create New Comp" class="center-block img-responsive" />
+{% include post-image.html file="create-new-comp.gif" alt="Create New Comp" %}
 
 
 

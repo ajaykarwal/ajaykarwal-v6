@@ -1,54 +1,18 @@
-<footer role="contentinfo">
-  <ul class="networks">
-    {% if site.github_username %}
-    <li>
-      <a target="_blank" href="http://www.github.com/{{site.github_username}}" class="github">
-        <i class="fa fa-github"><span>Github</span></i>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.twitter_username %}
-    <li>
-      <a target="_blank" href="http://www.twitter.com/{{site.twitter_username}}" class="twitter">
-        <i class="fa fa-twitter"><span>Twitter</span></i>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.dribbble_username %}
-    <li>
-      <a target="_blank" href="http://www.dribbble.com/{{site.dribbble_username}}" class="dribbble">
-        <i class="fa fa-dribbble"><span>Dribbble</span></i>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.behance_username %}
-    <li>
-      <a target="_blank" href="http://www.behance.net/{{site.behance_username}}" class="behance">
-        <i class="fa fa-behance"><span>Behance</span></i>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.linkedin_username %}
-    <li>
-      <a target="_blank" href="http://www.linkedin.com/in/{{site.linkedin_username}}" class="linkedin">
-        <i class="fa fa-linkedin"><span>LinkedIn</span></i>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.facebook_username %}
-    <li>
-      <a target="_blank" href="http://www.facebook.com/{{site.facebook_username}}" class="facebook">
-        <i class="fa fa-facebook"><span>Facebook</span></i>
-      </a>
-    </li>
-    {% endif %}
-  </ul>
-
-  <p> &copy; {{ site.time | date: '%Y' }} Ajay Karwal / <a href="/credits/">Credits</a></p>
-
+<footer class="content-wrapper" role="contentinfo">
+  <div class="content">
+    <ul class="networks">
+        {% for network in site.data.networks %}
+        <li>
+            <a target="_blank" href="{{ network.url }}" class="{{ network.id }}">
+              {% include {{ network.id | prepend: 'icons/' | append: '.svg' }} %}
+            </a>
+          </li>        
+        {% endfor %}
+    </ul>
+    <p>
+        Copyright &copy; {{ site.time | date: '%Y' }} <a href="https://ajaykarwal.com">Ajay Karwal</a>. Built using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
+        <br>
+        You can see the source code on <a href="https://github.com/ajaykarwal/portfolio" target="_blank">Github.</a>
+    </p>
+  </div>
 </footer>

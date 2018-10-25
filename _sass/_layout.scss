@@ -1,18 +1,14 @@
-main[role="main"] {
-  padding:0 1.5em;
-  margin: 0 auto 3em auto;
+main {
+  background-color: $white;
+  padding-bottom: 3em;
+}
 
-  @media (min-width: $break-md) {
-    max-width: 900px;
-    padding: 0;
-  }
-
-  @media (min-width: $break-lg) {
-    max-width: 1000px;
-    padding: 0;
+.content {
+  h1,h2,h3,h4,h5,h6,p,ul,ol{
+    @include center-content;
   }
 }
 
-article {
-  @extend %clearfix;
+.content-wrapper {
+  padding: 0 $space-md;
 }

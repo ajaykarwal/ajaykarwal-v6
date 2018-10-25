@@ -13,19 +13,14 @@ author:
 
 google_analytics  : UA-16609747-8
 
-# Social accounts
-twitter_username  : ajaykarwal
-facebook_username : ajaykarwal
-dribbble_username : ajaykarwal
-linkedin_username : ajaykarwal
-behance_username  : ajaykarwal
-github_username   : ajaykarwal
 disqus_shortname  : ajaykarwal
 
 feed_artwork   : /images/feed-artwork.png
   
 # Add _pages directory to jekyll build
 include: ["_pages"]
+
+gems: ["emoji_for_jekyll"]
 
 exclude:
  - Gemfile

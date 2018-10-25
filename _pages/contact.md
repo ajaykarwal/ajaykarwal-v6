@@ -5,10 +5,6 @@
   comments: false
 ---
 
-If you have a project in mind or are simply interested in finding out more, get in touch. I'd love to talk.
+It's totally fine to get in touch if you have any questions or comments about what I do or just fancy a chat.
 
-**Email me:**  
-ajaykarwal [at] gmail [dot] com
-
-**Tweet at me:**  
-<a href="http://www.twitter.com/ajaykarwal" target="_blank" title="Tweet at me">@ajaykarwal</a>
+The best way to get in touch is to <a href="mailto:ajaykarwal@gmail.com">email me</a> or tweet me <a href="http://www.twitter.com/ajaykarwal" target="_blank" title="Tweet at me">@ajaykarwal</a>.
