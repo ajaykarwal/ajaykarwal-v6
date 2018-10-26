@@ -26,17 +26,17 @@ layout: default
   </div>
 
   <footer>
-  {% include share-page.html %}
+    {% include share-page.html %}
   </footer>
 
   {% if site.disqus_shortname %}
-    {% if page.comments != false %}
+  {% if page.comments != false %}
+  <div class="content-wrapper">
     <aside>
-      <div class="content-wrapper">
-        <h2>Comments</h2>
-        {% include disqus_comments.html %}
-      </div>
+      <h2>Comments</h2>
+      {% include disqus_comments.html %}
     </aside>
-    {% endif %}
+  </div>
+  {% endif %}
   {% endif %}
 </article>
