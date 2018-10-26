@@ -1,7 +1,7 @@
 {% assign og_title = page.title | default: site.title %}
 {% assign og_desc = page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape %}
 {% assign og_type = 'website' %}
-{% assign og_url = page.url | replace:'index.html','' | absolute_url %}
+{% assign og_url = page.url | replace:'index.html','' %}
 {% assign og_image = 'http://ajaykarwal.com/images/feed-artwork.png' %}
 {% if page.date %}
   {% assign og_date = page.date | date_to_xmlschema %}
@@ -14,16 +14,16 @@
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@{{ site.twitter.inspect }}">
+<meta name="twitter:site" content="@{{ site.twitter }}">
 <meta name="twitter:title" content="{{ og_title }}">
 <meta name="twitter:description" content="{{ og_desc }}">
-<meta name="twitter:creator" content="@{{ site.twitter.inspect }}">
+<meta name="twitter:creator" content="@{{ site.twitter }}">
 <meta name="twitter:image" content="{{ og_image }}">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="{{ og_title }}" />
 <meta property="og:type" content="{{ og_type }}" />
-<meta property="og:url" content="{{ og_url }}" />
+<meta property="og:url" content="{{ site.url }}{{ og_url }}" />
 <meta property="og:image" content="{{ og_image }}" />
 <meta property="og:description" content="{{ og_desc }}" />
 <meta property="og:site_name" content="{{ site.title }}" />
