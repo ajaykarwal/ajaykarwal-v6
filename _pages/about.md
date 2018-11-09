@@ -1,9 +1,8 @@
 ---
 layout: page
-title: "About"
+title: "About me"
 permalink: "/about/"
 comments: false
-experience: 
 ---
 
 
@@ -19,7 +18,7 @@ To discuss your requirements or just to connect please [get in touch]({{ site.ba
 After graduating from Kingston University in 2003 I've steadily built my career, transitioning from designer to front-end developer, whilst working on a number of small yet ambitious startups under the umbrella of my co-founded company, Prama.
 
 
-Since exiting Prama in 2013, I have built on these foundations in both a freelance and agency capacity with an array of clients include HSBC, BT, Caterpillar, JCB, Ministry of Sound, Kodak, WHSmith, Karen Millen, Oasis, Coast, Habitat, Warehouse, Ted Baker, Thomas Pink, and BSi.
+Since exiting Prama in 2013, I have built on these foundations in both a freelance and agency capacity with an array of clients include Heineken, Thames Water, Audi, Brother, HSBC, BT, Caterpillar, Ministry of Sound, Kodak, WHSmith, Ted Baker, Thomas Pink, and BSi.
 
 
 ## Development
@@ -27,13 +26,9 @@ I specialise in UI development though my experience in multiple fields allows me
 
 - HTML5
 - CSS3 / Sass / Less
-- JavaScript / ES6 / jQuery
-- React / Redux
-- Gulp / Grunt / Webpack
-- Bootstrap
-- Wordpress / Umbraco / Sitecore
-- SQL
-- GIT
+- JavaScript / jQuery / ReactJS
+- Gulp / Grunt / Webpack / NPM / Node
+- Wordpress / Bootstrap / Jekyll
 
 I'm also comfortable working with back-end development in ASP.NET, PHP and Java, as well as all the tools necessary to manage deployment, version control, debugging and performance.
 
@@ -41,7 +36,7 @@ Here is a list of the [tools I use on a regular basis](/uses/).
 
 
 ## Creative
-Starting my career as a designer I've built up expert knowledge of the **Adobe Creative Cloud** suite of apps including **Photoshop**, **Illustrator**, **InDesign** and **Premiere Pro**. As a keen photographer and music lover I am able to utilise these passions to bring an extra layer of creativity to a project - beyond the bounds of simply designing websites.
+Starting my career as a designer I've built up expert knowledge of **Adobe Creative Cloud** as well as more UI specific tools such as **Sketch** and **InVision**. As a keen photographer and music lover I am able to utilise these passions to bring an extra layer of creativity to a project - beyond the bounds of simply designing websites.
 
 
 I'm a member of a number of creative platforms such as <a href="http://www.behance.net/ajaykarwal" target="_blank" title="My Behance profile">Behance</a> and <a href="http://www.dribbble.com/ajaykarwal" target="_blank" title="My Dribbble profile">Dribbble</a> and always keep my finger on the pulse of the latest design trends. I'm passionate about typography, colour harmony and composition and aim to apply tried and tested design principles to create engaging user experiences.

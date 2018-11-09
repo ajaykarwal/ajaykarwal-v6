@@ -27,9 +27,9 @@
 
 .book-page {
   .book-cover {
-    width:30%;
+    width:50%;
     float: left;
-    margin-right:2em;
-    margin-bottom: 0;
+    margin-right:$space;
+    margin-bottom: $space-sm;
   }
 }

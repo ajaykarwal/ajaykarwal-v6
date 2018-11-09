@@ -1,28 +1,29 @@
 ---
 layout: default
 ---
+
+
 <article class="article" itemscope itemtype="http://schema.org/Book">
   <header>
-    <h1 class="book-title">
-      {{ page.title | escape }}
-      <span class="book-author">
-        by {{ page.author }}
-      </span>
-    </h1>
-
+    <div class="content">
+      <h1 class="book-title">
+        {{ page.title | escape }} <span class="book-author">by {{ page.author }}</span>
+      </h1>
+    </div>
   </header>
 
-  <div class="content book-page" itemprop="review">
-      <img class="book-cover" src="{{ site.url }}/images/books/{{ page.cover }}.jpg" alt="{{ book.title }}">
-
-      {{ content }}
-
-      {% if page.buylink %}
-      <p>
-        <a class="btn btn-primary" href="{{ page.buylink | escape }}" target="_blank">Get it on Amazon</a>
-      </p>
-      {% endif %}
-
+  <div class="content-wrapper book-page" itemprop="review">
+      <div class="content">
+        <img class="book-cover" src="{{ site.url }}/images/books/{{ page.cover }}.jpg" alt="{{ book.title }}">
+  
+        {{ content }}
+  
+        {% if page.buylink %}
+        <p>
+          <a class="btn btn-primary" href="{{ page.buylink | escape }}" target="_blank">Get it on Amazon</a>
+        </p>
+        {% endif %}
+      </div>
   </div>
 
   <footer>

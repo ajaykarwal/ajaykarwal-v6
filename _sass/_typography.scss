@@ -26,7 +26,8 @@ h1 {
   color: $true-black;
 
   span {
-    color: $medium-grey;
+    display: block;
+    color: $brand-primary-light;
     font-weight: $font-weight-normal;
     text-transform: none;
     @include font-size(20px);
@@ -85,9 +86,4 @@ p {
   &.lead {
     @include font-size(22px);
   }
-}
-
-b,
-strong {
-  font-weight: $font-weight-medium;
 }

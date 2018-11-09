@@ -23,9 +23,9 @@
     display: flex;
     align-items: flex-end;
     background: $true-black;
-    height: 300px;
+    min-height: 300px;
     background-image: linear-gradient(to left top, $brand-primary, $brand-primary-dark);
-    padding: 0 $space-md $space-md;
+    padding: 100px $space-md $space-md;
     
     @media (min-width: $break-sm) {
       align-items: center;
