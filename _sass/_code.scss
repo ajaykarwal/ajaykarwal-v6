@@ -1,4 +1,6 @@
-.highlight { 
+div.highlight { 
+  @include center-content($wide: true);
+  border-radius: 5px;
   background: #343642;
   color: #C1C2C3;
 

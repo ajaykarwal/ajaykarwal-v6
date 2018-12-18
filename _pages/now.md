@@ -8,7 +8,7 @@ experience:
 
 Here are some of the things I’m currently focused on.
 
-**Last updated:** October 2018.
+**Last updated:** December 2018.
 
 ## Work
 I'm currently working on a large UX piece of work for Thames Water, developing some forms for their 'Developer Services'. This form previously required several hours worth of manual input from the Thames Water team and often lead to a lot of wasted effort if the customer decided to then not follow through with the work. The new online form will eliminate all this and give the customer a clear indication of expected costs before any work is carried out.
@@ -28,7 +28,7 @@ Check out more of my recommended books on my [reading list](/reading-list/)
 <span id="lastfmStatus"></span>You can see what else I've been listening to on my [Last.fm](https://www.last.fm/user/ajaykarwal) or [Spotify](https://open.spotify.com/user/keynote) profiles.
 
 ## Gaming
-I recently completed Super Mario Odyssey to 100%. I'm occasionally playing Fortnite but can't really seem to get into it much.
+I'm currently playing The Legend of Zelda: Breath of the Wild. I put off buying the game for far too long but now that I've got hold of it, I'm pretty hooked. I occasionally [tweet about it](http://www.twitter.com/ajaykarwal).
 
 ___
 
