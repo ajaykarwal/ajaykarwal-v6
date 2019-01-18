@@ -33,7 +33,7 @@ The list is up to date as of October 2018.
 I get by with a fairly lean set of hardware. I usually work at my desk at home or on the sofa so portability is key but as I dont travel much the weight of my computer is not that important.
 
 ### MacBook Pro
-My primary computer at home is a **15" Retina Macbook Pro**. It's the late 2013 model and is was the top spec available at the time.
+My primary computer at home is a **15" Retina Macbook Pro**. It's the late 2013 model and it was the top spec available at the time.
 - 2.3 GHz Intel Core i7
 - 16 GB 1600 MHz DDR3
 - Intel Iris Pro 1536 MB
