@@ -1,4 +1,7 @@
 <head>
+  {% if jekyll.environment == 'production' %}
+  {% include google-analytics.html %}
+  {% endif %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0">
@@ -27,10 +30,5 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   {% endif %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
-
-
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
 </head>
 
