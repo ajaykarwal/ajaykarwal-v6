@@ -9,6 +9,20 @@ $(document).ready(function () {
         $('.nav-container').slideToggle(200);
     });
 
+    $('.lightbox').click(function(e) {
+        e.preventDefault();
+        var modalImage = e.target.src;
+        $('body').addClass('modal-open');
+        $('body').append($('<div>', {class: 'modal'}).hide());
+        $('.modal').html($('<img>', { src: modalImage })).fadeIn(300);
+    })
+    $(document).on('click', '.modal', function () {
+        $('body').removeClass('modal-open');
+        $(this).fadeOut(300, function () {
+            $(this).remove();
+        });
+    });
+
     var lastfmify = function (userConfig) {
         // Set up detaulf config options
         var config = {

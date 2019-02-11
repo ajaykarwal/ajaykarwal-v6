@@ -1,0 +1,23 @@
+{% if include.link == "self" %}
+  {% assign image_link = {{ site.url }}/images/{{ include.file }} %}
+{% else %}
+  {% assign image_link = {{include.link}} %}
+{% endif %}
+{{ image_link }}
+<div class="post-image">
+    {% if include.link %}
+    <a href="{% if include.link == 'self' %}{{ site.url }}/images/{{ include.file }}{% else %}{{include.link}}{% endif %}"
+    {% if include.link == "self" %} class="lightbox"{% endif %}>
+    {% endif %}
+
+    <img
+      src="{{ site.url }}/images/{{ include.file }}" 
+      alt="{{ include.alt }}" 
+      class="center-block img-responsive"
+      {% if include.width %} width="{{include.width}}"{% endif %}
+    />
+    
+    {% if include.link %}
+    </a>
+    {% endif %}
+</div>

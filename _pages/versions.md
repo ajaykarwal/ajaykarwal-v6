@@ -14,9 +14,11 @@ Here is an archive of previous designs with some notes on how that specific vers
 ## v6.0
 2018-Present
 
-<a href="{{ site.url }}/images/versions/v6.jpg" class="lightbox">
-  <img src="{{ site.url }}/images/versions/v6.jpg" alt="Version 6 of this website" class="center-block img-responsive" />
-</a>
+{% include image.html
+  file="versions/v6.jpg" 
+  link="self" 
+  alt="Version 6 of this website" 
+%}
 
 For version 6, the site has stayed on Jekyll but is now hosted on [Netlify](https://www.netlify.com/) which deploys automatically when I push to the Master branch of my GitHub repo. The new design is much more stripped back with a bigger focus on written content and typography. I also stripped out jQuery, FontAwesome and switch to a [system font stack](https://css-tricks.com/snippets/css/system-font-stack/) which has masively increased the page load speeds.
 
@@ -29,27 +31,33 @@ The site was still hosted on Azure but I introduced a <a href="{{site.baseurl}}{
 ## v5.0
 2017-2018
 
-<a href="{{ site.url }}/images/versions/v5.jpg" class="lightbox">
-  <img src="{{ site.url }}/images/versions/v5.jpg" alt="Version 5 of this website" class="center-block img-responsive" />
-</a>
+{% include image.html
+  file="versions/v5.jpg" 
+  link="self" 
+  alt="Version 5 of this website" 
+%}
 
 Version 5 stays on Umbraco and Azure but swsitched over to a light theme while keeping the basic layout as version 4.
 
 ## v4.0
 2016-2017
 
-<a href="{{ site.url }}/images/versions/v4.jpg" class="lightbox">
-  <img src="{{ site.url }}/images/versions/v4.jpg" alt="Version 4 of this website" class="center-block img-responsive" />
-</a>
+{% include image.html
+  file="versions/v4.jpg" 
+  link="self" 
+  alt="Version 4 of this website" 
+%}
 
 Version 4 is was the first CMS version of the website and introduced my new [logo](https://dribbble.com/shots/2718615-Branding-logo-and-website-refresh-for-2016). I decided to build it in [Umbraco](https://umbraco.com/) as that was the platform the company I was working for at the time was using. I hosted the site on the free tier of Microsoft Azure.
 
 ## v3.0
 2014-2016
 
-<a href="{{ site.url }}/images/versions/v3.jpg" class="lightbox">
-  <img src="{{ site.url }}/images/versions/v3.jpg" alt="Version 3 of this website" class="center-block img-responsive" />
-</a>
+{% include image.html
+  file="versions/v3.jpg" 
+  link="self" 
+  alt="Version 3 of this website" 
+%}
 
 For version 3 I decided to give my personal identity a [design refresh](https://dribbble.com/shots/1524996-Personal-Identity-V2) which introduced some bright colours and softer lines. This version of the site was built in PHP and included a lot more jQuery animations. I was aiming for a 'single page web app' look and feel which was the trend at the time.
 
@@ -57,9 +65,11 @@ For version 3 I decided to give my personal identity a [design refresh](https://
 ## v2.0
 2012-2014
 
-<a href="{{ site.url }}/images/versions/v2.jpg" class="lightbox">
-  <img src="{{ site.url }}/images/versions/v2.jpg" alt="Version 2 of this website" class="center-block img-responsive" />
-</a>
+{% include image.html
+  file="versions/v2.jpg" 
+  link="self" 
+  alt="Version 2 of this website" 
+%}
 
 Version 2 was built using ASP.NET Web Forms. It was at a point in my career where I had enough experience and enough work to showcase in a proper portfolio and I wanted to create a [personal identity](https://dribbble.com/shots/775585-Personal-Identity) for myself. The left column was fixed and took 100% height of the browser (which was still tricky to do back in 2012) while the right column scrolled.
 
@@ -71,9 +81,11 @@ The left column is the `<header>` and the social icons at the bottom are the `<f
 ## v1.0
 2010-2012
 
-<a href="{{ site.url }}/images/versions/v1.jpg" class="lightbox">
-  <img src="{{ site.url }}/images/versions/v1.jpg" alt="Version 1 of this website" class="center-block img-responsive" />
-</a>
+{% include image.html
+  file="versions/v1.jpg" 
+  link="self" 
+  alt="Version 1 of this website" 
+%}
 
 Version 1 of the site could hardly be called a website at all. It was just a single page with some links to my profiles on various networks. I even took the liberty to make each line of text into an image becuase of the custom fonts (this was pre-webfonts) and decided to be cryptic about where each link would even take you &mdash; can you figure them out?
 

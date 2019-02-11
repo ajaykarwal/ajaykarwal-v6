@@ -154,3 +154,45 @@ ul.influences {
     height: 100%;
   }
 }
+
+.post-image {
+  @include center-content($wide: true);
+  display: block;
+  margin-bottom: 2em;
+  .lightbox {
+    cursor: zoom-in;
+
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.8);
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  cursor: zoom-out;
+  @media (min-width: $break-sm) {
+  padding: 40px;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+  }
+}
+
+.modal-open {
+  overflow: hidden;
+
+  main {
+    filter: blur(100px);
+  }
+}

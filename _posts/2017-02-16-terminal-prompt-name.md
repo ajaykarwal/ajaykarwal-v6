@@ -12,7 +12,12 @@ The Terminal prompt name is the text that appears before the `$` sign. By defaul
 HOST_NAME:USER_NAME CURRENT_DIRECTORY $
 ```
 
-<img src="{{ site.base_url }}/images/posts/terminal-1.png" alt="Default Terminal prompt" class="center-block img-responsive" width="500" />
+{% include image.html
+  file="posts/terminal-1.png" 
+  alt="Default Terminal prompt" 
+  link="self"
+  width="500"
+%}
 
 Depending on what you've named your computer, this can take up a lot of valuable real-estate on each line of the Terminal. In order to change this default prompt you will need to make a change to your `.bash_profile` file.
 
@@ -46,7 +51,12 @@ The `\u` flag sets the prompt to your User name (in my case, Ajay). Remember to 
 
 Quit Terminal and relaunch to see your new prompt in action.
 
-<img src="{{ site.base_url }}/images/posts/terminal-2.png" alt="Custom Terminal prompt" class="center-block img-responsive" width="500" />
+{% include image.html
+  file="posts/terminal-2.png" 
+  alt="Custom Terminal prompt" 
+  link="self"
+  width="500"
+%}
 
 ## Options for customising the prompt
 
