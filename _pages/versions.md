@@ -20,7 +20,7 @@ Here is an archive of previous designs with some notes on how that specific vers
   alt="Version 6 of this website" 
 %}
 
-For version 6, the site has stayed on Jekyll but is now hosted on [Netlify](https://www.netlify.com/) which deploys automatically when I push to the Master branch of my GitHub repo. The new design is much more stripped back with a bigger focus on written content and typography. I also stripped out jQuery, FontAwesome and switch to a [system font stack](https://css-tricks.com/snippets/css/system-font-stack/) which has masively increased the page load speeds.
+For version 6, the site has stayed on Jekyll but is now hosted on [Netlify](https://www.netlify.com/) which deploys automatically when I push to the Master branch of my GitHub repo. The new design is much more stripped back with a bigger focus on written content and typography. I also stripped out jQuery, FontAwesome and switched to a [system font stack](https://css-tricks.com/snippets/css/system-font-stack/) which has masively increased the page load speeds.
 
 ## v5.1
 

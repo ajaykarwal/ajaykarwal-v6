@@ -45,9 +45,5 @@
   .actions {
     @include center-content;
     margin-top: 2em;
-
-    .btn {
-      margin: auto 0.25em 1em;
-    }
   }
 }
