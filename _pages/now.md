@@ -18,7 +18,7 @@ Win!
 ## Reading
 I'm current reading [Think and Grow Rich](https://amzn.to/2MAV7KB) by Napoleon Hill.
 
-Check out more of my recommended books on my [reading list](/reading-list/)
+Check out more of my recommended books on [my Goodreads profile](https://www.goodreads.com/ajaykarwal).
 
 ## Watching
 - Currently wathching a series called [Inside No. 9](https://www.imdb.com/title/tt2674806/) which is a dark comedy series by the guys who created The League of Gentlemen.
