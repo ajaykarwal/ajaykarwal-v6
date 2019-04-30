@@ -13,14 +13,19 @@ A lot of answers on Stack Overflow and the like may tell you to add `sudo ` to y
 Rather than messing with permissions of your global `/node_modules/` folder, you can install [Node Version Manager](https://github.com/creationix/nvm) to install multiple versions of Node, but more importantly you can now install packages globally without the need to overrite permissions.
 
 ## 1. Make a note of your current globally installed packages.
+
+This lists all of the top level installed packages. You'll want to install some/all of these again once we're done.
+
 ```shell
 $ sudo npm list -g --depth=0
 ```
 
-This lists all of the top level installed packages. You'll want to install some/all of these again once we're done.
 
 
 ## 2. Remove Node, NMP and all top-level global packages
+
+Once you're ready, run this command to remove any top-level global npm packages.
+
 ```shell
 $ sudo npm list -g --depth=0 | awk -F ' ' '{print $2}' | awk -F '@' '{print $1}'  | sudo xargs npm remove -g
 ```
@@ -54,6 +59,7 @@ export NVM_DIR="$HOME/.nvm"
 ```
 
 ## 4. Reinstall Node and NPM
+
 You can now install Node using the `nvm` command. This will install the latest version.
 
 ```
@@ -69,6 +75,7 @@ $ nvm install 10.10.0
 _Reload terminal again..._
 
 ## 5. Verify all the things
+
 Verify that you have the desired version of Node and NPM installed, and start enjoying a _`sudo`-less_ world of global npm packages. 🙌🏼
 
 ```shell

@@ -18,7 +18,7 @@ To discuss your requirements or just to connect please [get in touch]({{ site.ba
 After graduating from Kingston University in 2003 I've steadily built my career, transitioning from designer to front-end developer, whilst working on a number of small yet ambitious startups under the umbrella of my co-founded company, Prama.
 
 
-Since exiting Prama in 2013, I have built on these foundations in both a freelance and agency capacity with clients include Heineken, Thames Water, Audi, Brother, HSBC, BT, Caterpillar, Ministry of Sound, Kodak, WHSmith, Ted Baker, Thomas Pink, and BSi.
+Since exiting Prama in 2013, I have built on these foundations in both a freelance and agency capacity with clients include BP, Heineken, Thames Water, Audi, Brother, HSBC, BT, Caterpillar, Ministry of Sound, Kodak, WHSmith, and BSi.
 
 
 ## Development

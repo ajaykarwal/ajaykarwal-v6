@@ -13,7 +13,7 @@ An aliases is simply a custom shortcut or abbreviation to a more verbose Termina
 
 Let’s create a temporary alias in the command line for `ls -l` (list of the current directory contents using a long listing format). Open Terminal and run the following command:
 
-```
+```shell
 alias ll="ls -l"
 ```
 
@@ -21,7 +21,7 @@ Note: There must not ne any spaces before or after the equal sign otherwise the 
 
 Now if you type `ll` in your Terminal you should see something like this.
 
-```
+```shell
 drwx------@  5 user  staff   160B 19 Jan 14:55 Applications/
 drwx------+  5 user  staff   160B 12 Jun 17:12 Desktop/
 drwx------+ 14 user  staff   448B 30 Apr 12:48 Documents/
@@ -33,7 +33,6 @@ drwx------+  4 user  staff   128B 29 Mar 14:36 Movies/
 drwx------+  5 user  staff   160B 29 Mar 17:40 Music/
 ...
 ...
-
 ```
 
 As previously mentioned, this is just a temporary alias. It will be removed when you quit the current Terminal session.
@@ -47,13 +46,13 @@ Use the command `ls -al` to check if you already have a .bash_profile file.
 
 If not, you can create one by typing
 
-```
+```shell
 touch .bash_profile
 ```
 
 Open to edit the file by running the following:
 
-```
+```shell
 nano ~/.bash_profile
 ```
 
@@ -61,7 +60,7 @@ You can also open and edit it with your code editor. I use Visual Studio Code wi
 
 Add the following lines, save the file and then restart Terminal.
 
-```
+```shell
 # -------
 # Aliases
 # -------
@@ -69,14 +68,14 @@ alias ll="ls -l"
 ```
 You can also tell Terminal to reload the ~/.bash_profile file using the source command:
 
-```
+```shell
 source ~/.bash_profile
 ```
 
 ## Useful Aliases
 Here are some of the aliases I have set up which you may also find useful.
 
-```
+```shell
 alias ..="cd .." # Up 1 directory
 alias ...="cd ../.." # Up 2 directories
 alias ....="cd ../../.." # Up 3 directories
@@ -95,13 +94,13 @@ alias ip="dig +short myip.opendns.com @resolver1.opendns.com" # Public IP
 
 This website is built using [Jekyll](http://jekyllrb.com) and while I'm doing local development I always need to change to my project directory and run `bundle exec jekyll serve --watch`. This is a perfect candidate for an alias which I've set up as
 
-```
+```shell
 alias jw="bundle exec jekyll serve --watch" ## Run the Jekyll serve and watch
 ```
 
 I could go one step further and chain the `cd` command in there too so I can change directory and start up Jekyll all in one alias, e.g.
 
-```
+```shell
 alias sitedev="cd ~/dev/sites/ajaykarwal-com/ && bundle exec jekyll serve --watch"
 ```
 Notice the use of `&&` to chain a second command on.
