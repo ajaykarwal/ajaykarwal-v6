@@ -6,7 +6,7 @@ comments: false
 ---
 
 
-I am a **user interface designer** and **front-end developer** with over {{ site.time|date:'%Y'|abs|minus:2003 }} years experience in branding, design and development focusing on pixel-perfect interfaces built with clean readable code. Husband, father and an avid reader of the internet—this is my home.
+I am a **user interface designer** and **front-end developer** with over {{ site.time|date:'%Y'|abs|minus:2002 }} years experience in branding, design and development focusing on pixel-perfect interfaces built with clean readable code. Husband, father and an avid reader of the internet—this is my home.
 
 I'm currently working as **Front-end Developer** at <a href="http://www.ecx.io" target="_blank" title="ecx.io - Creating Digital Success">ecx.io</a>, a digital agency based in Bracknell, UK. Aside from that, you'll find me <a href="http://www.twitter.com/ajaykarwal" target="_blank" title="Follow me on Twitter">tweeting my thoughts</a> or buried in a <a href="https://www.goodreads.com/ajaykarwal" target="_blank" title="My Goodreads profile">good book</a>.
 
