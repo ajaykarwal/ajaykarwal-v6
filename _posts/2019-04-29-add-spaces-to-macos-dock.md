@@ -13,7 +13,7 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 
 What this does is add a new 'spacer-tile' item to the Dock's 'persistent apps' array &mdash; the list of apps which are permanently in the Dock &mdash; and then reloads the Dock.
 
-The new space will be added to the end of the Dock. Of course it's invisible so the best way to confirm it's there is to open any other app which isn't currenly in your Dock. You should now see a space which you can drag into the desired position.
+The new space will be added to the end of the Dock. Of course it's invisible so the best way to confirm it's there is to open any other app which isn't currently in your Dock. You should now see a space which you can drag into the desired position.
 
 To create more spaces, just run the command again.
 

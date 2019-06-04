@@ -47,7 +47,7 @@ This _should_ install Node Version Manager to `~/.nvm` and add the source line t
 Verify that Node Version Manager is now installed.
 
 ```shell
-$ nvm -v
+$ nvm --version
 ```
 
 If you get an error, you can manually set the NVM source in your profile by adding the following to your `~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc` file.
