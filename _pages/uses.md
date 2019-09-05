@@ -44,7 +44,7 @@ I haven't had a need to upgrade to a newer model yet as most of my work doesn't 
 ### Phone
 I currenly use 64GB iPhone 6S in gold. I've been an iPhone user since the iPhone 4 but no so much of a devotee to upgrade each year. I usually skip the 'S' models but I was so happy with my previous iPhone 5 that I decided to hold onto it for a little longer.
 
-You can get an idea of my most used apps by checking out my [homescreen](http://homescreen.me/ajaykarwal).
+You can get an idea of my most used apps by checking out my [homescreen](https://imgur.com/gallery/xwsevGK).
 
 ### Headphones
 My main set of heaphones are the **Beats by Dre Solo Wireless 2** in black and red version. The sound quality is brilliant, the battery lasts several days (based on my commute) and the size/weight doesn't weigh me down with extended use.
