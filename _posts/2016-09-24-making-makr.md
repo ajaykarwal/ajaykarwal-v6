@@ -2,6 +2,7 @@
   layout: post
   title:  Making Makr
   excerpt_separator: <!--more-->
+  hidden: true
 ---
 
 Makr is a community for creative people to connect and collaborate in the Thames Valley area. It's a Slack team where members can discuss events they've attended, find collaborators for side projects or simple form friendships with local people who have similar interests.

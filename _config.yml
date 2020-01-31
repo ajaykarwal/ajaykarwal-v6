@@ -1,8 +1,8 @@
 ###### Site settings
 title             : Ajay Karwal
-metatitle         : User Interface Design and Development Portfolio
-description       : User interface design and development portfolio for Ajay Karwal
-tagline           : User interface design and development portfolio for Ajay Karwal
+metatitle         : Front-end Developer and UI Designer from Buckingham, UK.
+description       : Front-end Developer and UI Designer from Buckingham, UK.
+tagline           : Front-end Developer and UI Designer from Buckingham, UK.
 email             : ajaykarwal@gmail.com
 base_url          : https://ajaykarwal.com
 encoding          : utf-8
@@ -27,6 +27,7 @@ exclude:
  - Gemfile
  - Gemfile.lock
  - README.md
+ - vendor
 
 #Build settings
 permalink: /:title/

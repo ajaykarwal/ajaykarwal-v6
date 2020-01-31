@@ -1,6 +1,7 @@
 ---
   layout: post
   title: Uninstall Node.js and install Node Version Manager (NVM)
+  artwork: 'node-to-nvm.jpg'
 ---
 
 When trying to install some npm packages globally, for example `npm i gulp-cli -g` you may run into a permissions error along the lines of:

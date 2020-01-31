@@ -1,6 +1,7 @@
 ---
   layout: post
   title: Add spaces to the Dock in macOS
+  artwork: 'dock-spaces.jpg'
 ---
 
 If you want to take greater control of how apps are organised on your macOS Dock, a great way is to add spaces between groups of apps.

@@ -1,6 +1,7 @@
 ---
   layout: post
   title: React Application Data Flow with Redux
+  artwork: "react-and-redux.jpg"
 ---
 
 This is a brief overview of the main elements of a React application's data flow with Redux.

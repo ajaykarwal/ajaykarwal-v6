@@ -3,7 +3,6 @@ layout: page
 title: "What I'm up to right now"
 permalink: "/now/"
 comments: false
-experience: 
 ---
 
 Here are some of the things I’m currently focused on.

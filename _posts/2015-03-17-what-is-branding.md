@@ -1,6 +1,7 @@
 ---
   layout: post
   title: What is Branding?
+  artwork: 'what-is-branding.jpg'
 ---
 
 A brand is so much more than a logo; a name; a font; a colour.

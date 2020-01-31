@@ -1,6 +1,7 @@
 ---
   layout: post
   title:  Good Product Manager; Bad Product Manager
+  artwork: 'hard-thing.jpg'
 ---
 
 I'm currently in the process of reading <em><a href="http://amzn.to/28QwPL8" target="_blank" title="Get it on Amazon">The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers</a> by Ben Horowitz</em> and came across this interesting passage.

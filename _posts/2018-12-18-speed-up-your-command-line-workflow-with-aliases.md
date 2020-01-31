@@ -1,6 +1,7 @@
 ---
   layout: post
   title: Speed up your Terminal workflow with aliases on macOS
+  artwork: 'terminal-aliases.jpg'
 ---
 
 Whether your just starting out on your development journey or you're a seasoned pro, chances are you'll be reaching for the Terminal app on a regular basis.
