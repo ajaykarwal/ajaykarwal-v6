@@ -18,7 +18,7 @@ Let’s create a temporary alias in the command line for `ls -l` (list of the cu
 alias ll="ls -l"
 ```
 
-Note: There must not ne any spaces before or after the equal sign otherwise the alias will not work.
+*Note: There must not be any spaces before or after the equal sign otherwise the alias will not work.*
 
 Now if you type `ll` in your Terminal you should see something like this.
 
