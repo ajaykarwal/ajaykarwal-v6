@@ -77,16 +77,16 @@ source ~/.bash_profile
 Here are some of the aliases I have set up which you may also find useful.
 
 ```shell
-alias ..="cd .." # Up 1 directory
-alias ...="cd ../.." # Up 2 directories
-alias ....="cd ../../.." # Up 3 directories
-alias cd..="cd .." # Because typing the space is for amateurs!
+alias ..="cd .."          # Up 1 directory
+alias ...="cd ../.."      # Up 2 directories
+alias ....="cd ../../.."  # Up 3 directories
+alias cd..="cd .."        # Because typing the space is for amateurs!
 
-alias ls="ls -GFh" # A nicer looking list
-alias ll="ls -l" # List current directory contents
-alias la="ls -la" # List all, including dotfiles
+alias ls="ls -GFh"        # A nicer looking list
+alias ll="ls -l"          # List current directory contents
+alias la="ls -la"         # List all, including dotfiles
 
-alias o="open ." # Open the current directory in Finder
+alias o="open ."          # Open the current directory in Finder
 
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com" # Public IP
 ```
