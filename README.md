@@ -1,5 +1,6 @@
-# Personal portfolio of Ajay Karwal
+# ajaykarwal.com - v6
 
-This site is the personal portfolio of Ajay Karwal.
+This is an archive of my personal website.
+See it in action at https://ajaykarwal.github.io/ajaykarwal-v6/
 
-See it in action at https://ajaykarwal.com
+The current live version is at https://ajaykarwal.com/
